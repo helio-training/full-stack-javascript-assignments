@@ -1,0 +1,25 @@
+{
+  "name": "full-stack-node-assignments",
+  "version": "1.0.0",
+  "description": "Full Stack Node Assignments",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "ava test"
+  },
+  "repository": {
+    "url": "https://TylerGarlick@github.com/helio-training/full-stack-node-assignments",
+    "type": "git"
+  },
+  "author": "Tyler Garlick <tgarlick@heliotraining.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-cli": "^6.18.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0"
+  },
+  "ava": {
+    "babel": "inherit"
+  }
+}
