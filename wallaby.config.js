@@ -10,7 +10,7 @@ module.exports = wallaby => ({
   
   env: {
     type: 'node',
-    // runner: 'node'
+    runner: 'node'
   },
   
   setup: () => require('babel-polyfill'),
