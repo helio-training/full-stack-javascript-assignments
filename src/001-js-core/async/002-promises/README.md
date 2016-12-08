@@ -1,0 +1,1 @@
+https://medium.freecodecamp.com/javascript-promises-explained-by-gambling-at-a-casino-28ad4c5b2573#.gufe14hzz
