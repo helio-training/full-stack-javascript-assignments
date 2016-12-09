@@ -249,9 +249,9 @@ PublishScripts/
 # NuGet Packages
 *.nupkg
 # The packages folder can be ignored because of Package Restore
-src/node/npm/packages/*
+#src/node/basics/npm/packages/*
 # except build/, which is used as an MSBuild target.
-!src/node/npm/packages/build/
+#!src/node/basics/npm/packages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
 # NuGet v3's project.json files produces more ignoreable files
