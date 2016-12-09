@@ -14,7 +14,7 @@ For this assignment you will traverse different types of arrays utilizing variou
         ```js
         {
             name: "George Washington",
-            birthday: 1732,
+            birthday: 1732,ww
             death: 1799,
             tookOffice: "1789-04-30",
             leftOffice: "1797-03-04",
