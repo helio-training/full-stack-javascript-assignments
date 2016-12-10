@@ -1,4 +1,5 @@
 # Assignment - Objects with a Class
+
 >  What is a class? Why does it matter? How is it useful?
 
 For this assignment you will be create more robots.  This time we will use classes to accomplish similar things as the object literals
@@ -25,3 +26,7 @@ For this assignment you will be create more robots.  This time we will use class
 * Why didn't we need any parameters in the OptimusPrime and Megatron constructors?
 * What is the purpose of the getters/setters?
 * How could you make a property be readonly?
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model
+
+constructor
