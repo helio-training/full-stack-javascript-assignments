@@ -1,4 +1,4 @@
-# Assignment: Typings
+# Typings
 
 > What are types? Why should we use types? Is JS considered a typed language?
 
