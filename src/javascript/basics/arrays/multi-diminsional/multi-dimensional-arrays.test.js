@@ -12,3 +12,12 @@ Test(`Jagged is setup properly`, t => {
   t.is(Assignment.Jagged[2][0], 9);
   t.is(Assignment.Jagged[1][2], 6);
 });
+
+Test(`Matrix traversal is setup properly`, t => {
+  t.is(Assignment.matrixTraversal());
+});
+
+
+Test(`Jagged traversal is setup properly`, t => {
+  t.is(Assignment.jaggedTraversal());
+});

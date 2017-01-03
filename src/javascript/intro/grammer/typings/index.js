@@ -6,15 +6,15 @@ export default {
   phone: '8012012200',
   favoriteFoods: ['Apple', 'Banana', 'Potato'],
   name: {
-    first: "Tyler",
-    last: "Garlick"
+    first: 'Tyler',
+    last: 'Garlick'
   },
   notDefined: undefined,
   nullable: null,
   greet() {
-    return 'Hello'
+    return 'Hello';
   },
-  emptyString: "",
+  emptyString: '',
   zero: 0,
   one: 1
-}
+};

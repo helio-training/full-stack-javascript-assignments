@@ -4,6 +4,8 @@ export const Matrix = [
   [7, 8, 9]
 ];
 
+export const matrixTraversal = () => Matrix.forEach(row => row.forEach(col => console.log(col)));
+
 
 export const Jagged = [
   [1, 2],
@@ -11,3 +13,5 @@ export const Jagged = [
   [9]
 ];
 
+
+export const jaggedTraversal = () => Matrix.forEach(row => row.forEach(col => console.log(col)));

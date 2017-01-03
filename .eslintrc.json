@@ -12,7 +12,7 @@
   "rules": {
     "indent": [
       "error",
-      42
+      2
     ],
     "linebreak-style": [
       "error",
