@@ -1,0 +1,3942 @@
+[
+  {
+    "__docId__": 0,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/_datasets/presidents.js",
+    "memberof": null,
+    "longname": "src/_datasets/presidents.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export default [\n  {\n    name: \"George Washington\",\n    birthday: 1732,\n    death: 1799,\n    tookOffice: \"1789-04-30\",\n    leftOffice: \"1797-03-04\",\n    party: \"No Party\"\n  },\n  {\n    name: \"John Adams\",\n    birthday: 1735,\n    death: 1826,\n    tookOffice: \"1797-03-04\",\n    leftOffice: \"1801-03-04\",\n    party: \"Federalist\"\n  },\n  {\n    name: \"Thomas Jefferson\",\n    birthday: 1743,\n    death: 1826,\n    tookOffice: \"1801-03-04\",\n    leftOffice: \"1809-03-04\",\n    party: \"Democratic-Republican\"\n  },\n  {\n    name: \"James Madison\",\n    birthday: 1751,\n    death: 1836,\n    tookOffice: \"1809-03-04\",\n    leftOffice: \"1817-03-04\",\n    party: \"Democratic-Republican\"\n  },\n  {\n    name: \"James Monroe\",\n    birthday: 1758,\n    death: 1831,\n    tookOffice: \"1817-03-04\",\n    leftOffice: \"1825-03-04\",\n    party: \"Democratic-Republican\"\n  },\n  {\n    name: \"John Quincy Adams\",\n    birthday: 1767,\n    death: 1848,\n    tookOffice: \"1825-03-04\",\n    leftOffice: \"1829-03-04\",\n    party: \"Democratic-Republican\"\n  },\n  {\n    name: \"Andrew Jackson\",\n    birthday: 1767,\n    death: 1845,\n    tookOffice: \"1829-03-04\",\n    leftOffice: \"1837-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Martin Van Buren\",\n    birthday: 1782,\n    death: 1862,\n    tookOffice: \"1837-03-04\",\n    leftOffice: \"1841-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"William Henry Harrison\",\n    birthday: 1773,\n    death: 1841,\n    tookOffice: \"1841-03-04\",\n    leftOffice: \"1841-04-04\",\n    party: \"Whig\"\n  },\n  {\n    name: \"John Tyler\",\n    birthday: 1790,\n    death: 1862,\n    tookOffice: \"1841-04-04\",\n    leftOffice: \"1845-03-04\",\n    party: \"Whig\"\n  },\n  {\n    name: \"James K. Polk\",\n    birthday: 1795,\n    death: 1849,\n    tookOffice: \"1845-03-04\",\n    leftOffice: \"1849-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Zachary Taylor\",\n    birthday: 1784,\n    death: 1850,\n    tookOffice: \"1849-03-04\",\n    leftOffice: \"1850-07-09\",\n    party: \"Whig\"\n  },\n  {\n    name: \"Millard Fillmore\",\n    birthday: 1800,\n    death: 1874,\n    tookOffice: \"1850-07-09\",\n    leftOffice: \"1853-03-04\",\n    party: \"Whig\"\n  },\n  {\n    name: \"Franklin Pierce\",\n    birthday: 1804,\n    death: 1869,\n    tookOffice: \"1853-03-04\",\n    leftOffice: \"1857-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"James Buchanan\",\n    birthday: 1791,\n    death: 1868,\n    tookOffice: \"1857-03-04\",\n    leftOffice: \"1861-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Abraham Lincoln\",\n    birthday: 1809,\n    death: 1865,\n    tookOffice: \"1861-03-04\",\n    leftOffice: \"1865-04-15\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Andrew Johnson\",\n    birthday: 1808,\n    death: 1875,\n    tookOffice: \"1865-04-15\",\n    leftOffice: \"1869-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Ulysses S. Grant\",\n    birthday: 1822,\n    death: 1885,\n    tookOffice: \"1869-03-04\",\n    leftOffice: \"1877-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Rutherford B. Hayes\",\n    birthday: 1822,\n    death: 1893,\n    tookOffice: \"1877-03-04\",\n    leftOffice: \"1881-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"James A. Garfield\",\n    birthday: 1831,\n    death: 1881,\n    tookOffice: \"1881-03-04\",\n    leftOffice: \"1881-09-19\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Chester A. Arthur\",\n    birthday: 1829,\n    death: 1886,\n    tookOffice: \"1881-09-19\",\n    leftOffice: \"1885-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Grover Cleveland\",\n    birthday: 1837,\n    death: 1908,\n    tookOffice: \"1885-03-04\",\n    leftOffice: \"1889-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Benjamin Harrison\",\n    birthday: 1833,\n    death: 1901,\n    tookOffice: \"1889-03-04\",\n    leftOffice: \"1893-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Grover Cleveland\",\n    birthday: 1837,\n    death: 1908,\n    tookOffice: \"1893-03-04\",\n    leftOffice: \"1897-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"William McKinley\",\n    birthday: 1843,\n    death: 1901,\n    tookOffice: \"1897-03-04\",\n    leftOffice: \"1901-09-14\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Theodore Roosevelt\",\n    birthday: 1858,\n    death: 1919,\n    tookOffice: \"1901-09-14\",\n    leftOffice: \"1909-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"William Howard Taft\",\n    birthday: 1857,\n    death: 1930,\n    tookOffice: \"1909-03-04\",\n    leftOffice: \"1913-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Woodrow Wilson\",\n    birthday: 1856,\n    death: 1924,\n    tookOffice: \"1913-03-04\",\n    leftOffice: \"1921-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Warren G. Harding\",\n    birthday: 1865,\n    death: 1923,\n    tookOffice: \"1921-03-04\",\n    leftOffice: \"1923-08-02\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Calvin Coolidge\",\n    birthday: 1872,\n    death: 1933,\n    tookOffice: \"1923-08-02\",\n    leftOffice: \"1929-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Herbert Hoover\",\n    birthday: 1874,\n    death: 1964,\n    tookOffice: \"1929-03-04\",\n    leftOffice: \"1933-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Franklin D. Roosevelt\",\n    birthday: 1882,\n    death: 1945,\n    tookOffice: \"1933-03-04\",\n    leftOffice: \"1945-04-12\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Harry S. Truman\",\n    birthday: 1884,\n    death: 1972,\n    tookOffice: \"1945-04-12\",\n    leftOffice: \"1953-01-20\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Dwight D. Eisenhower\",\n    birthday: 1890,\n    death: 1969,\n    tookOffice: \"1953-01-20\",\n    leftOffice: \"1961-01-20\",\n    party: \"Republican\"\n  },\n  {\n    name: \"John F. Kennedy\",\n    birthday: 1917,\n    death: 1963,\n    tookOffice: \"1961-01-20\",\n    leftOffice: \"1963-11-22\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Lyndon B. Johnson\",\n    birthday: 1908,\n    death: 1973,\n    tookOffice: \"1963-11-22\",\n    leftOffice: \"1969-01-20\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Richard Nixon\",\n    birthday: 1913,\n    death: 1994,\n    tookOffice: \"1969-01-20\",\n    leftOffice: \"1974-08-09\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Gerald Ford\",\n    birthday: 1913,\n    death: 2006,\n    tookOffice: \"1974-08-09\",\n    leftOffice: \"1977-01-20\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Jimmy Carter\",\n    birthday: 1924,\n    death: null,\n    tookOffice: \"1977-01-20\",\n    leftOffice: \"1981-01-20\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Ronald Reagan\",\n    birthday: 1911,\n    death: 2004,\n    tookOffice: \"1981-01-20\",\n    leftOffice: \"1989-01-20\",\n    party: \"Republican\"\n  },\n  {\n    name: \"George H. W. Bush\",\n    birthday: 1924,\n    death: null,\n    tookOffice: \"1989-01-20\",\n    leftOffice: \"1993-01-20\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Bill Clinton\",\n    birthday: 1946,\n    death: null,\n    tookOffice: \"1993-01-20\",\n    leftOffice: \"2001-01-20\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"George W. Bush\",\n    birthday: 1946,\n    death: null,\n    tookOffice: \"2001-01-20\",\n    leftOffice: \"2009-01-20\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Barack Obama\",\n    birthday: 1961,\n    death: null,\n    tookOffice: \"2009-01-20\",\n    leftOffice: null,\n    party: \"Democratic\"\n  }\n];"
+  },
+  {
+    "__docId__": 1,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/006-set-and-map/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/006-set-and-map/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 2,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/await-async/003-async-await/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/await-async/003-async-await/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 3,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/bind/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/bind/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 4,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/call-and-apply/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/call-and-apply/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 5,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/equality-and-sameness/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/equality-and-sameness/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 6,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/event-loop/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/event-loop/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 7,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/functional/functional.test.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/functional/functional.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport * as Assignment from './';\nimport Bills from '../../../_datasets/bills-passed';\n\nTest(`Retrieves current bills`, t => {\n  const result = Assignment.isCurrentAndBill(Bills);\n  console.log(result.length);\n\n  const sponsors = Assignment.sponsor(Bills);\n  console.log(sponsors.length);\n});"
+  },
+  {
+    "__docId__": 8,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/functional/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/functional/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import R from 'ramda';\n\nexport const isAlive = R.filter(R.whereEq({ is_alive: true }));\n\nexport const isCurrent = R.filter(R.whereEq({ is_current: true }));\n\nexport const isBill = R.filter(R.whereEq({ bill_resolution_type: 'bill' }));\n\n\nexport const sponsor = R.map(R.prop('sponsor'));\n\nexport const isRepublican = R.filter(R.filter(R.whereEq({ party: 'Republican' })));\nexport const isDemocrat = R.filter(R.whereEq({ party: 'Democrat' }));\n\nexport const sortByCurrentStatusDate = R.sortBy(R.prop('current_status_date'));\n\nexport const isCurrentAndBill = R.compose(isCurrent, isBill, sortByCurrentStatusDate);\n\nexport const isRepublicanCurrentBill = R.compose(isCurrentAndBill, isRepublican, sponsor);"
+  },
+  {
+    "__docId__": 9,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "isAlive",
+    "memberof": "src/javascript/advanced/functional/index.js",
+    "longname": "src/javascript/advanced/functional/index.js~isAlive",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/advanced/functional/index.js",
+    "importStyle": "{isAlive}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 10,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "isCurrent",
+    "memberof": "src/javascript/advanced/functional/index.js",
+    "longname": "src/javascript/advanced/functional/index.js~isCurrent",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/advanced/functional/index.js",
+    "importStyle": "{isCurrent}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 11,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "isBill",
+    "memberof": "src/javascript/advanced/functional/index.js",
+    "longname": "src/javascript/advanced/functional/index.js~isBill",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/advanced/functional/index.js",
+    "importStyle": "{isBill}",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 12,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "sponsor",
+    "memberof": "src/javascript/advanced/functional/index.js",
+    "longname": "src/javascript/advanced/functional/index.js~sponsor",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/advanced/functional/index.js",
+    "importStyle": "{sponsor}",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 13,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "isRepublican",
+    "memberof": "src/javascript/advanced/functional/index.js",
+    "longname": "src/javascript/advanced/functional/index.js~isRepublican",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/advanced/functional/index.js",
+    "importStyle": "{isRepublican}",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 14,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "isDemocrat",
+    "memberof": "src/javascript/advanced/functional/index.js",
+    "longname": "src/javascript/advanced/functional/index.js~isDemocrat",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/advanced/functional/index.js",
+    "importStyle": "{isDemocrat}",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 15,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "sortByCurrentStatusDate",
+    "memberof": "src/javascript/advanced/functional/index.js",
+    "longname": "src/javascript/advanced/functional/index.js~sortByCurrentStatusDate",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/advanced/functional/index.js",
+    "importStyle": "{sortByCurrentStatusDate}",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 16,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "isCurrentAndBill",
+    "memberof": "src/javascript/advanced/functional/index.js",
+    "longname": "src/javascript/advanced/functional/index.js~isCurrentAndBill",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/advanced/functional/index.js",
+    "importStyle": "{isCurrentAndBill}",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 17,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "isRepublicanCurrentBill",
+    "memberof": "src/javascript/advanced/functional/index.js",
+    "longname": "src/javascript/advanced/functional/index.js~isRepublicanCurrentBill",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/advanced/functional/index.js",
+    "importStyle": "{isRepublicanCurrentBill}",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 18,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/functions/closure/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/functions/closure/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 19,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/functions/generators/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/functions/generators/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 20,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/inheritance-and-prototypal-chain/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/inheritance-and-prototypal-chain/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 21,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/lexical-grammer/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/lexical-grammer/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 22,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/memory-management/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/memory-management/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 23,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/ownership-of-properties/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/ownership-of-properties/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 24,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/proxy/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/proxy/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 25,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/reflect/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/reflect/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 26,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/symbols/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/symbols/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 27,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/template-literals/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/template-literals/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 28,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/advanced/typed-arrays/index.js",
+    "memberof": null,
+    "longname": "src/javascript/advanced/typed-arrays/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 29,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/003-objects/001-object-literals/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/003-objects/001-object-literals/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "// Put code from README.md in this file\n\n\nexport const FACTIONS = {\n  Autobots: 'autobots',\n  Decepticons: 'decepticons'\n};\n\n\nexport const OptimusPrime = {\n  name: 'Optimus Prime',\n  faction: FACTIONS.Autobots,\n  power: 1000,\n  \n  greet() {\n    return `Hello, I'm ${this.name}`;\n  }\n};\n\nexport const Megatron = {\n  name: 'Megatron',\n  faction: FACTIONS.Decepticons,\n  power: 1000,\n  \n  greet() {\n    return `Hello, I'm ${this.name}`;\n  }\n};"
+  },
+  {
+    "__docId__": 30,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "FACTIONS",
+    "memberof": "src/javascript/basics/003-objects/001-object-literals/index.js",
+    "longname": "src/javascript/basics/003-objects/001-object-literals/index.js~FACTIONS",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/003-objects/001-object-literals/index.js",
+    "importStyle": "{FACTIONS}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 31,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "OptimusPrime",
+    "memberof": "src/javascript/basics/003-objects/001-object-literals/index.js",
+    "longname": "src/javascript/basics/003-objects/001-object-literals/index.js~OptimusPrime",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/003-objects/001-object-literals/index.js",
+    "importStyle": "{OptimusPrime}",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 32,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "Megatron",
+    "memberof": "src/javascript/basics/003-objects/001-object-literals/index.js",
+    "longname": "src/javascript/basics/003-objects/001-object-literals/index.js~Megatron",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/003-objects/001-object-literals/index.js",
+    "importStyle": "{Megatron}",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 33,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/003-objects/001-object-literals/object.test.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/003-objects/001-object-literals/object.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport { OptimusPrime, Megatron, FACTIONS } from './';\n\n\nTest('Optimus Prime is correct', t => {\n  const { name, faction, power, greet } = OptimusPrime;\n  \n  t.is(name, 'Optimus Prime');\n  t.is(faction, FACTIONS.Autobots);\n  t.is(power, 1000);\n  \n  t.is(typeof(greet), 'function');\n});\n\n\nTest('Megatron is correct', t => {\n  const { name, faction, power, greet } = Megatron;\n  \n  t.is(name, 'Megatron');\n  t.is(faction, FACTIONS.Decepticons);\n  t.is(power, 1000);\n  \n  t.is(typeof(greet), 'function');\n});\n\n\nTest('FACTIONS is definied', t => {\n  t.is(FACTIONS.Decepticons, 'decepticons');\n  t.is(FACTIONS.Autobots, 'autobots');\n});"
+  },
+  {
+    "__docId__": 34,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/003-objects/classes/002-classes-and-objects/classes.test.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/classes.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport Robots, { FACTIONS, Robot } from './';\n\nTest('Optimus Prime', t => {\n  const { optimusPrime } = Robots;\n  \n  t.is(optimusPrime.name, 'Optimus Prime');\n  t.is(optimusPrime.faction, FACTIONS.Autobots);\n  t.is(optimusPrime.greet(), `Hi, I'm Optimus Prime`);\n});\n\nTest('Megatron', t => {\n  const { megatron } = Robots;\n  \n  t.is(megatron.name, 'Megatron');\n  t.is(megatron.faction, FACTIONS.Decepticons);\n  t.is(megatron.greet(), `Hi, I'm Megatron`);\n});\n\nTest('Can create bumblebee from Robot', t => {\n  const name = 'BumbleBee';\n  const faction = FACTIONS.Autobots;\n  const POWER = 1000;\n  \n  const bumblebee = new Robot(name, faction);\n  \n  \n  t.is(bumblebee.name, name);\n  t.is(bumblebee.faction, FACTIONS.Autobots);\n  t.is(bumblebee.greet(), `Hi, I'm ${name}`);\n  t.is(bumblebee.power, POWER);\n});\n\n\n"
+  },
+  {
+    "__docId__": 35,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const FACTIONS = {\n  Autobots: 'autobots',\n  Decepticons: 'decepticons'\n};\n\nexport class Robot {\n  \n  constructor(name, faction) {\n    this._name = name;\n    this._faction = faction;\n    this._power = 1000;\n  }\n  \n  get name() {\n    return this._name;\n  }\n  \n  // set name(value) {\n  //   this._name = value;\n  // }\n  \n  get faction() {\n    return this._faction;\n  }\n  \n  get power() {\n    return this._power;\n  }\n  \n  greet() {\n    return `Hi, I'm ${this.name}`;\n  }\n}\n\nexport class OptimusPrime extends Robot {\n  \n  constructor() {\n    super('Optimus Prime', FACTIONS.Autobots);\n  }\n}\n\nexport class Megatron extends Robot {\n  \n  constructor() {\n    super('Megatron', FACTIONS.Decepticons);\n  }\n}\n\n\nexport default {\n  megatron: new Megatron(),\n  optimusPrime: new OptimusPrime()\n}"
+  },
+  {
+    "__docId__": 36,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "FACTIONS",
+    "memberof": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js",
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~FACTIONS",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js",
+    "importStyle": "{FACTIONS}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 37,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "Robot",
+    "memberof": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js",
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js",
+    "importStyle": "{Robot}",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 38,
+    "kind": "constructor",
+    "static": false,
+    "variation": null,
+    "name": "constructor",
+    "memberof": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot",
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot#constructor",
+    "access": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "params": [
+      {
+        "name": "name",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "faction",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 39,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_name",
+    "memberof": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot",
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot#_name",
+    "access": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 40,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_faction",
+    "memberof": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot",
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot#_faction",
+    "access": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 41,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_power",
+    "memberof": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot",
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot#_power",
+    "access": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 42,
+    "kind": "get",
+    "static": false,
+    "variation": null,
+    "name": "name",
+    "memberof": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot",
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot#name",
+    "access": null,
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 43,
+    "kind": "get",
+    "static": false,
+    "variation": null,
+    "name": "faction",
+    "memberof": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot",
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot#faction",
+    "access": null,
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 44,
+    "kind": "get",
+    "static": false,
+    "variation": null,
+    "name": "power",
+    "memberof": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot",
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot#power",
+    "access": null,
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 45,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "greet",
+    "memberof": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot",
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot#greet",
+    "access": null,
+    "description": null,
+    "lineNumber": 30,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 46,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "OptimusPrime",
+    "memberof": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js",
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~OptimusPrime",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js",
+    "importStyle": "{OptimusPrime}",
+    "description": null,
+    "lineNumber": 35,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "Robot"
+    ]
+  },
+  {
+    "__docId__": 47,
+    "kind": "constructor",
+    "static": false,
+    "variation": null,
+    "name": "constructor",
+    "memberof": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~OptimusPrime",
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~OptimusPrime#constructor",
+    "access": null,
+    "description": null,
+    "lineNumber": 37,
+    "undocument": true,
+    "params": [],
+    "generator": false
+  },
+  {
+    "__docId__": 48,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "Megatron",
+    "memberof": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js",
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Megatron",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js",
+    "importStyle": "{Megatron}",
+    "description": null,
+    "lineNumber": 42,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "Robot"
+    ]
+  },
+  {
+    "__docId__": 49,
+    "kind": "constructor",
+    "static": false,
+    "variation": null,
+    "name": "constructor",
+    "memberof": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Megatron",
+    "longname": "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Megatron#constructor",
+    "access": null,
+    "description": null,
+    "lineNumber": 44,
+    "undocument": true,
+    "params": [],
+    "generator": false
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/003-objects/classes/constructors/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/003-objects/classes/constructors/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 51,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/003-objects/classes/getters-setters/getters-setters.test.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/003-objects/classes/getters-setters/getters-setters.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport * as Assignment from './';\n\nTest('name has getter', t => {\n  const person = new Assignment.Person('Tyler');\n  t.is(person.name, 'Tyler');\n});\n\nTest('negative age results in 0', t => {\n  const person = new Assignment.Person('Tyler');\n  person.age = -1;\n  t.is(person.age, 0);\n});\n\nTest('age above 120 is set to 12', t => {\n  const person = new Assignment.Person('Tyler');\n  person.age = 130;\n  t.is(person.age, 120);\n});\n\nTest('age is normal within 0 - 120', t => {\n  const person = new Assignment.Person('Tyler');\n  const age = 34;\n  person.age = age;\n  t.is(person.age, age);\n});"
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/003-objects/classes/getters-setters/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/003-objects/classes/getters-setters/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "const _name = Symbol('name');\nconst _age = Symbol('age');\n\nexport class Person {\n  \n  constructor(name, age = 0) {\n    this[_name] = name;\n    this[_age] = age;\n  }\n  \n  get name() {\n    return this[_name];\n  }\n  \n  get age() {\n    return this[_age];\n  }\n  \n  set age(value) {\n    if (value < 0) {\n      this[_age] = 0;\n    } else if (value >= 120) {\n      this[_age] = 120;\n    } else {\n      this[_age] = value;\n    }\n  }\n}"
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "_name",
+    "memberof": "src/javascript/basics/003-objects/classes/getters-setters/index.js",
+    "longname": "src/javascript/basics/003-objects/classes/getters-setters/index.js~_name",
+    "access": null,
+    "export": false,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/003-objects/classes/getters-setters/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "_age",
+    "memberof": "src/javascript/basics/003-objects/classes/getters-setters/index.js",
+    "longname": "src/javascript/basics/003-objects/classes/getters-setters/index.js~_age",
+    "access": null,
+    "export": false,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/003-objects/classes/getters-setters/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "Person",
+    "memberof": "src/javascript/basics/003-objects/classes/getters-setters/index.js",
+    "longname": "src/javascript/basics/003-objects/classes/getters-setters/index.js~Person",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/003-objects/classes/getters-setters/index.js",
+    "importStyle": "{Person}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 56,
+    "kind": "constructor",
+    "static": false,
+    "variation": null,
+    "name": "constructor",
+    "memberof": "src/javascript/basics/003-objects/classes/getters-setters/index.js~Person",
+    "longname": "src/javascript/basics/003-objects/classes/getters-setters/index.js~Person#constructor",
+    "access": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "name",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "age",
+        "optional": true,
+        "types": [
+          "number"
+        ],
+        "defaultRaw": 0,
+        "defaultValue": "0"
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 57,
+    "kind": "get",
+    "static": false,
+    "variation": null,
+    "name": "name",
+    "memberof": "src/javascript/basics/003-objects/classes/getters-setters/index.js~Person",
+    "longname": "src/javascript/basics/003-objects/classes/getters-setters/index.js~Person#name",
+    "access": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 58,
+    "kind": "get",
+    "static": false,
+    "variation": null,
+    "name": "age",
+    "memberof": "src/javascript/basics/003-objects/classes/getters-setters/index.js~Person",
+    "longname": "src/javascript/basics/003-objects/classes/getters-setters/index.js~Person#age",
+    "access": null,
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 59,
+    "kind": "set",
+    "static": false,
+    "variation": null,
+    "name": "age",
+    "memberof": "src/javascript/basics/003-objects/classes/getters-setters/index.js~Person",
+    "longname": "src/javascript/basics/003-objects/classes/getters-setters/index.js~Person#age",
+    "access": null,
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 60,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/003-objects/classes/inheritance/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/003-objects/classes/inheritance/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export class Mammal {\n  constructor(name) {\n    this.name = name;\n  }\n  \n  walk() {\n    \n  }\n}\n\nexport class Dog extends Mammal {\n  \n  constructor(name) {\n    super(name);\n  }\n  \n  greet() {\n    return 'Woof';\n  }\n}\n\nexport class Cat extends Mammal {\n  \n  constructor(name) {\n    super(name);\n  }\n  \n  greet() {\n    return 'Meow';\n  }\n  \n}"
+  },
+  {
+    "__docId__": 61,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "Mammal",
+    "memberof": "src/javascript/basics/003-objects/classes/inheritance/index.js",
+    "longname": "src/javascript/basics/003-objects/classes/inheritance/index.js~Mammal",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/003-objects/classes/inheritance/index.js",
+    "importStyle": "{Mammal}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 62,
+    "kind": "constructor",
+    "static": false,
+    "variation": null,
+    "name": "constructor",
+    "memberof": "src/javascript/basics/003-objects/classes/inheritance/index.js~Mammal",
+    "longname": "src/javascript/basics/003-objects/classes/inheritance/index.js~Mammal#constructor",
+    "access": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "params": [
+      {
+        "name": "name",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 63,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "name",
+    "memberof": "src/javascript/basics/003-objects/classes/inheritance/index.js~Mammal",
+    "longname": "src/javascript/basics/003-objects/classes/inheritance/index.js~Mammal#name",
+    "access": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "walk",
+    "memberof": "src/javascript/basics/003-objects/classes/inheritance/index.js~Mammal",
+    "longname": "src/javascript/basics/003-objects/classes/inheritance/index.js~Mammal#walk",
+    "access": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [],
+    "generator": false
+  },
+  {
+    "__docId__": 65,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "Dog",
+    "memberof": "src/javascript/basics/003-objects/classes/inheritance/index.js",
+    "longname": "src/javascript/basics/003-objects/classes/inheritance/index.js~Dog",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/003-objects/classes/inheritance/index.js",
+    "importStyle": "{Dog}",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "Mammal"
+    ]
+  },
+  {
+    "__docId__": 66,
+    "kind": "constructor",
+    "static": false,
+    "variation": null,
+    "name": "constructor",
+    "memberof": "src/javascript/basics/003-objects/classes/inheritance/index.js~Dog",
+    "longname": "src/javascript/basics/003-objects/classes/inheritance/index.js~Dog#constructor",
+    "access": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [
+      {
+        "name": "name",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 67,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "greet",
+    "memberof": "src/javascript/basics/003-objects/classes/inheritance/index.js~Dog",
+    "longname": "src/javascript/basics/003-objects/classes/inheritance/index.js~Dog#greet",
+    "access": null,
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 68,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "Cat",
+    "memberof": "src/javascript/basics/003-objects/classes/inheritance/index.js",
+    "longname": "src/javascript/basics/003-objects/classes/inheritance/index.js~Cat",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/003-objects/classes/inheritance/index.js",
+    "importStyle": "{Cat}",
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "Mammal"
+    ]
+  },
+  {
+    "__docId__": 69,
+    "kind": "constructor",
+    "static": false,
+    "variation": null,
+    "name": "constructor",
+    "memberof": "src/javascript/basics/003-objects/classes/inheritance/index.js~Cat",
+    "longname": "src/javascript/basics/003-objects/classes/inheritance/index.js~Cat#constructor",
+    "access": null,
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "params": [
+      {
+        "name": "name",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 70,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "greet",
+    "memberof": "src/javascript/basics/003-objects/classes/inheritance/index.js~Cat",
+    "longname": "src/javascript/basics/003-objects/classes/inheritance/index.js~Cat#greet",
+    "access": null,
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "string"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 71,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/003-objects/classes/inheritance/inheritance.test.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/003-objects/classes/inheritance/inheritance.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport * as Assignment from './';\n\nTest(`Mammal can't greet`, t => {\n  t.falsy(Assignment.Mammal.greet);\n});\n\nTest(`Mammal has a name`, t => {\n  const name = 'shaggy';\n  const mammal = new Assignment.Mammal(name);\n  t.is(mammal.name, name);\n});\n\nTest(`Dog has a name and can greet with woof`, t => {\n  const name = 'shaggy';\n  const animal = new Assignment.Dog(name);\n  t.is(animal.name, name);\n  t.is(animal.greet(), 'Woof');\n});\n\nTest(`Cat has a name and can greet with meow`, t => {\n  const name = 'cali';\n  const animal = new Assignment.Cat(name);\n  t.is(animal.name, name);\n  t.is(animal.greet(), 'Meow');\n});"
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/003-objects/comparison/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/003-objects/comparison/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 73,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/003-objects/methods/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/003-objects/methods/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 74,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/003-objects/properties/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/003-objects/properties/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 75,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/arrays/001-simple-types/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/arrays/001-simple-types/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "/**\n * All the prime numbers between 1 - 100\n *\n * @type {[Number]}\n */\nexport const Primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];\n\n/**\n * Vowels in English\n *\n * @type {[String]}\n */\nexport const Vowels = ['a', 'e', 'i', 'o', 'u'];\n\n/**\n * Presidents of the United States\n * @type {[Object]}\n */\nexport const Presidents = [\n  {\n    name: \"George Washington\",\n    birthday: 1732,\n    death: 1799,\n    tookOffice: \"1789-04-30\",\n    leftOffice: \"1797-03-04\",\n    party: \"No Party\"\n  },\n  {\n    name: \"John Adams\",\n    birthday: 1735,\n    death: 1826,\n    tookOffice: \"1797-03-04\",\n    leftOffice: \"1801-03-04\",\n    party: \"Federalist\"\n  },\n  {\n    name: \"Thomas Jefferson\",\n    birthday: 1743,\n    death: 1826,\n    tookOffice: \"1801-03-04\",\n    leftOffice: \"1809-03-04\",\n    party: \"Democratic-Republican\"\n  },\n  {\n    name: \"James Madison\",\n    birthday: 1751,\n    death: 1836,\n    tookOffice: \"1809-03-04\",\n    leftOffice: \"1817-03-04\",\n    party: \"Democratic-Republican\"\n  },\n  {\n    name: \"James Monroe\",\n    birthday: 1758,\n    death: 1831,\n    tookOffice: \"1817-03-04\",\n    leftOffice: \"1825-03-04\",\n    party: \"Democratic-Republican\"\n  },\n  {\n    name: \"John Quincy Adams\",\n    birthday: 1767,\n    death: 1848,\n    tookOffice: \"1825-03-04\",\n    leftOffice: \"1829-03-04\",\n    party: \"Democratic-Republican\"\n  },\n  {\n    name: \"Andrew Jackson\",\n    birthday: 1767,\n    death: 1845,\n    tookOffice: \"1829-03-04\",\n    leftOffice: \"1837-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Martin Van Buren\",\n    birthday: 1782,\n    death: 1862,\n    tookOffice: \"1837-03-04\",\n    leftOffice: \"1841-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"William Henry Harrison\",\n    birthday: 1773,\n    death: 1841,\n    tookOffice: \"1841-03-04\",\n    leftOffice: \"1841-04-04\",\n    party: \"Whig\"\n  },\n  {\n    name: \"John Tyler\",\n    birthday: 1790,\n    death: 1862,\n    tookOffice: \"1841-04-04\",\n    leftOffice: \"1845-03-04\",\n    party: \"Whig\"\n  },\n  {\n    name: \"James K. Polk\",\n    birthday: 1795,\n    death: 1849,\n    tookOffice: \"1845-03-04\",\n    leftOffice: \"1849-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Zachary Taylor\",\n    birthday: 1784,\n    death: 1850,\n    tookOffice: \"1849-03-04\",\n    leftOffice: \"1850-07-09\",\n    party: \"Whig\"\n  },\n  {\n    name: \"Millard Fillmore\",\n    birthday: 1800,\n    death: 1874,\n    tookOffice: \"1850-07-09\",\n    leftOffice: \"1853-03-04\",\n    party: \"Whig\"\n  },\n  {\n    name: \"Franklin Pierce\",\n    birthday: 1804,\n    death: 1869,\n    tookOffice: \"1853-03-04\",\n    leftOffice: \"1857-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"James Buchanan\",\n    birthday: 1791,\n    death: 1868,\n    tookOffice: \"1857-03-04\",\n    leftOffice: \"1861-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Abraham Lincoln\",\n    birthday: 1809,\n    death: 1865,\n    tookOffice: \"1861-03-04\",\n    leftOffice: \"1865-04-15\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Andrew Johnson\",\n    birthday: 1808,\n    death: 1875,\n    tookOffice: \"1865-04-15\",\n    leftOffice: \"1869-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Ulysses S. Grant\",\n    birthday: 1822,\n    death: 1885,\n    tookOffice: \"1869-03-04\",\n    leftOffice: \"1877-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Rutherford B. Hayes\",\n    birthday: 1822,\n    death: 1893,\n    tookOffice: \"1877-03-04\",\n    leftOffice: \"1881-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"James A. Garfield\",\n    birthday: 1831,\n    death: 1881,\n    tookOffice: \"1881-03-04\",\n    leftOffice: \"1881-09-19\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Chester A. Arthur\",\n    birthday: 1829,\n    death: 1886,\n    tookOffice: \"1881-09-19\",\n    leftOffice: \"1885-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Grover Cleveland\",\n    birthday: 1837,\n    death: 1908,\n    tookOffice: \"1885-03-04\",\n    leftOffice: \"1889-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Benjamin Harrison\",\n    birthday: 1833,\n    death: 1901,\n    tookOffice: \"1889-03-04\",\n    leftOffice: \"1893-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Grover Cleveland\",\n    birthday: 1837,\n    death: 1908,\n    tookOffice: \"1893-03-04\",\n    leftOffice: \"1897-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"William McKinley\",\n    birthday: 1843,\n    death: 1901,\n    tookOffice: \"1897-03-04\",\n    leftOffice: \"1901-09-14\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Theodore Roosevelt\",\n    birthday: 1858,\n    death: 1919,\n    tookOffice: \"1901-09-14\",\n    leftOffice: \"1909-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"William Howard Taft\",\n    birthday: 1857,\n    death: 1930,\n    tookOffice: \"1909-03-04\",\n    leftOffice: \"1913-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Woodrow Wilson\",\n    birthday: 1856,\n    death: 1924,\n    tookOffice: \"1913-03-04\",\n    leftOffice: \"1921-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Warren G. Harding\",\n    birthday: 1865,\n    death: 1923,\n    tookOffice: \"1921-03-04\",\n    leftOffice: \"1923-08-02\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Calvin Coolidge\",\n    birthday: 1872,\n    death: 1933,\n    tookOffice: \"1923-08-02\",\n    leftOffice: \"1929-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Herbert Hoover\",\n    birthday: 1874,\n    death: 1964,\n    tookOffice: \"1929-03-04\",\n    leftOffice: \"1933-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Franklin D. Roosevelt\",\n    birthday: 1882,\n    death: 1945,\n    tookOffice: \"1933-03-04\",\n    leftOffice: \"1945-04-12\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Harry S. Truman\",\n    birthday: 1884,\n    death: 1972,\n    tookOffice: \"1945-04-12\",\n    leftOffice: \"1953-01-20\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Dwight D. Eisenhower\",\n    birthday: 1890,\n    death: 1969,\n    tookOffice: \"1953-01-20\",\n    leftOffice: \"1961-01-20\",\n    party: \"Republican\"\n  },\n  {\n    name: \"John F. Kennedy\",\n    birthday: 1917,\n    death: 1963,\n    tookOffice: \"1961-01-20\",\n    leftOffice: \"1963-11-22\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Lyndon B. Johnson\",\n    birthday: 1908,\n    death: 1973,\n    tookOffice: \"1963-11-22\",\n    leftOffice: \"1969-01-20\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Richard Nixon\",\n    birthday: 1913,\n    death: 1994,\n    tookOffice: \"1969-01-20\",\n    leftOffice: \"1974-08-09\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Gerald Ford\",\n    birthday: 1913,\n    death: 2006,\n    tookOffice: \"1974-08-09\",\n    leftOffice: \"1977-01-20\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Jimmy Carter\",\n    birthday: 1924,\n    death: null,\n    tookOffice: \"1977-01-20\",\n    leftOffice: \"1981-01-20\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Ronald Reagan\",\n    birthday: 1911,\n    death: 2004,\n    tookOffice: \"1981-01-20\",\n    leftOffice: \"1989-01-20\",\n    party: \"Republican\"\n  },\n  {\n    name: \"George H. W. Bush\",\n    birthday: 1924,\n    death: null,\n    tookOffice: \"1989-01-20\",\n    leftOffice: \"1993-01-20\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Bill Clinton\",\n    birthday: 1946,\n    death: null,\n    tookOffice: \"1993-01-20\",\n    leftOffice: \"2001-01-20\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"George W. Bush\",\n    birthday: 1946,\n    death: null,\n    tookOffice: \"2001-01-20\",\n    leftOffice: \"2009-01-20\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Barack Obama\",\n    birthday: 1961,\n    death: null,\n    tookOffice: \"2009-01-20\",\n    leftOffice: null,\n    party: \"Democratic\"\n  }\n];"
+  },
+  {
+    "__docId__": 76,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "Primes",
+    "memberof": "src/javascript/basics/arrays/001-simple-types/index.js",
+    "longname": "src/javascript/basics/arrays/001-simple-types/index.js~Primes",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/001-simple-types/index.js",
+    "importStyle": "{Primes}",
+    "description": "All the prime numbers between 1 - 100",
+    "lineNumber": 6,
+    "type": {
+      "nullable": null,
+      "types": [
+        "[Number]"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 77,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "Vowels",
+    "memberof": "src/javascript/basics/arrays/001-simple-types/index.js",
+    "longname": "src/javascript/basics/arrays/001-simple-types/index.js~Vowels",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/001-simple-types/index.js",
+    "importStyle": "{Vowels}",
+    "description": "Vowels in English",
+    "lineNumber": 13,
+    "type": {
+      "nullable": null,
+      "types": [
+        "[String]"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "Presidents",
+    "memberof": "src/javascript/basics/arrays/001-simple-types/index.js",
+    "longname": "src/javascript/basics/arrays/001-simple-types/index.js~Presidents",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/001-simple-types/index.js",
+    "importStyle": "{Presidents}",
+    "description": "Presidents of the United States",
+    "lineNumber": 19,
+    "type": {
+      "nullable": null,
+      "types": [
+        "[Object]"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/arrays/001-simple-types/simple-arrays.test.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/arrays/001-simple-types/simple-arrays.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\n\nimport * as Assignment from './';\n\nTest('Numbers: Prime numbers are correct', t => {\n  t.is(Assignment.Primes.length, 25);\n});\n\nTest('Strings: English Vowels', t => {\n  t.is(Assignment.Vowels.length, 5);\n});\n\nTest('Objects: US Presidents', t => {\n  t.is(Assignment.Presidents.length, 44);\n});\n\n"
+  },
+  {
+    "__docId__": 80,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/arrays/002-mixed-typed/arrays-mixed-type.test.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/arrays/002-mixed-typed/arrays-mixed-type.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport * as Assignment from './';\n\n\nTest(`Mixed array with numbers and strings`, t => {\n  t.is(Assignment.NumbersAndStrings.length, 3);\n  t.is(Assignment.NumbersAndStrings[2], 42);\n});\n\nTest(`Array has functions and strings`, t => {\n  t.is(Assignment.FunctionsAndStrings.length, 3)\n  t.is(typeof(Assignment.FunctionsAndStrings[0]), 'function');\n  t.is(typeof(Assignment.FunctionsAndStrings[1]), 'function');\n  t.is(typeof(Assignment.FunctionsAndStrings[2]), 'string');\n\n  t.is(Assignment.FunctionsAndStrings[0]() + Assignment.FunctionsAndStrings[1](), 'Hello World');\n});\n\n"
+  },
+  {
+    "__docId__": 81,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/arrays/002-mixed-typed/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/arrays/002-mixed-typed/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const NumbersAndStrings = ['Hello', 'World', 42];\n\nexport const FunctionsAndStrings = [() => { return 'Hello'}, () => { return ' World' }, 'Yo'];"
+  },
+  {
+    "__docId__": 82,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "NumbersAndStrings",
+    "memberof": "src/javascript/basics/arrays/002-mixed-typed/index.js",
+    "longname": "src/javascript/basics/arrays/002-mixed-typed/index.js~NumbersAndStrings",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/002-mixed-typed/index.js",
+    "importStyle": "{NumbersAndStrings}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 83,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "FunctionsAndStrings",
+    "memberof": "src/javascript/basics/arrays/002-mixed-typed/index.js",
+    "longname": "src/javascript/basics/arrays/002-mixed-typed/index.js~FunctionsAndStrings",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/002-mixed-typed/index.js",
+    "importStyle": "{FunctionsAndStrings}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/arrays/003-multi-diminsional/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/arrays/003-multi-diminsional/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const Matrix = [\n  [1, 2, 3],\n  [4, 5, 6],\n  [7, 8, 9]\n];\n\n\nexport const Jagged = [\n  [1, 2],\n  [3, 5, 6, 7, 8],\n  [9]\n];\n\n"
+  },
+  {
+    "__docId__": 85,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "Matrix",
+    "memberof": "src/javascript/basics/arrays/003-multi-diminsional/index.js",
+    "longname": "src/javascript/basics/arrays/003-multi-diminsional/index.js~Matrix",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/003-multi-diminsional/index.js",
+    "importStyle": "{Matrix}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "Jagged",
+    "memberof": "src/javascript/basics/arrays/003-multi-diminsional/index.js",
+    "longname": "src/javascript/basics/arrays/003-multi-diminsional/index.js~Jagged",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/003-multi-diminsional/index.js",
+    "importStyle": "{Jagged}",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/arrays/003-multi-diminsional/multi-dimensional-arrays.test.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/arrays/003-multi-diminsional/multi-dimensional-arrays.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport * as Assignment from './';\n\nTest(`Matrix is setup properly`, t => {\n  t.is(Assignment.Matrix[0][0], 1);\n  t.is(Assignment.Matrix[2][2], 9);\n});\n\n\nTest(`Jagged is setup properly`, t => {\n  t.is(Assignment.Jagged[0][0], 1);\n  t.is(Assignment.Jagged[2][0], 9);\n  t.is(Assignment.Jagged[1][2], 6);\n});"
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/arrays/004-utility-functions/filtering/filtering.test.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/arrays/004-utility-functions/filtering/filtering.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport * as Assignment from './';\n\nTest('Republican Senators', t => {\n  t.is(Assignment.RepublicanSenators.length, 54);\n});\n\nTest(`Republican Senator's States`, t => {\n  t.is(Assignment.RupublicanSenatorStates.length, 34);\n});\n\nTest('Democratic Senators', t => {\n  t.is(Assignment.DemocraticSenators.length, 44);\n});\n\nTest(`Democratic Senator's States`, t => {\n  t.is(Assignment.DemocraticSenatorStates.length, 29);\n});\n\nTest('Independent Senators', t => {\n  t.is(Assignment.IndependentSenators.length, 2);\n});\n\nTest(`Independent Senator's States`, t => {\n  t.is(Assignment.IndependentSenatorStates.length, 2);\n});\n\nTest(`States`, t => {\n  t.is(Assignment.States.length, 50);\n});\n\nTest(`Utah Senator`, t => {\n  const { person } = Assignment.SenatorInUtah;\n  t.is(person.name, 'Sen. Mike Lee [R-UT]');\n});\n\nTest(`Utah has republican senator?`, t => {\n  t.truthy(Assignment.UtahHasRepublicanSenator);\n});\n\nTest(`Has independent senators?`, t => {\n  t.truthy(Assignment.HasIndependentSenators);\n});\n"
+  },
+  {
+    "__docId__": 89,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Senators from '../../datasets/senators';\n\nconst PARTIES = {\n  REPUBLICAN: 'Republican',\n  DEMOCRAT: 'Democrat',\n  INDEPENDENT: 'Independent',\n};\n\nexport const RepublicanSenators = Senators.filter(s => s.party === PARTIES.REPUBLICAN);\nexport const DemocraticSenators = Senators.filter(s => s.party === PARTIES.DEMOCRAT);\nexport const IndependentSenators = Senators.filter(s => s.party === PARTIES.INDEPENDENT);\n\nexport const RupublicanSenatorStates = [...new Set(RepublicanSenators.map(s => s.state))].sort();\nexport const DemocraticSenatorStates = [...new Set(DemocraticSenators.map(s => s.state))].sort();\nexport const IndependentSenatorStates = [...new Set(IndependentSenators.map(s => s.state))].sort();\n\nexport const States = [... new Set(RupublicanSenatorStates.concat(DemocraticSenatorStates))];\n\nexport const SenatorInUtah = Senators.find(s => s.state === 'UT');\n\nexport const UtahHasRepublicanSenator = RupublicanSenatorStates.includes('UT');\n\nexport const HasIndependentSenators = Senators.some(s => s.party === PARTIES.INDEPENDENT);"
+  },
+  {
+    "__docId__": 90,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "PARTIES",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js~PARTIES",
+    "access": null,
+    "export": false,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "RepublicanSenators",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js~RepublicanSenators",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "importStyle": "{RepublicanSenators}",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "DemocraticSenators",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js~DemocraticSenators",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "importStyle": "{DemocraticSenators}",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 93,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "IndependentSenators",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js~IndependentSenators",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "importStyle": "{IndependentSenators}",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "RupublicanSenatorStates",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js~RupublicanSenatorStates",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "importStyle": "{RupublicanSenatorStates}",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 95,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "DemocraticSenatorStates",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js~DemocraticSenatorStates",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "importStyle": "{DemocraticSenatorStates}",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 96,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "IndependentSenatorStates",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js~IndependentSenatorStates",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "importStyle": "{IndependentSenatorStates}",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "States",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js~States",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "importStyle": "{States}",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 98,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "SenatorInUtah",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js~SenatorInUtah",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "importStyle": "{SenatorInUtah}",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 99,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "UtahHasRepublicanSenator",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js~UtahHasRepublicanSenator",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "importStyle": "{UtahHasRepublicanSenator}",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "HasIndependentSenators",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/filtering/index.js~HasIndependentSenators",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/filtering/index.js",
+    "importStyle": "{HasIndependentSenators}",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 101,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "const developer = { name: 'Tyler', age: 34 };\nconst constructionWorker = { name: 'Bob the Builder', age: 20 };\nconst actor = { name: 'Chris Farley', age: 39 };\n\nexport const people = [];\n\n// people.push(developer);\n// people.push(constructionWorker);\n// people.push(actor);\n\npeople.push(developer, constructionWorker, actor);\n\nexport const getDevelopersWithSlice = () => {\n  return people.slice(0, 1);\n};\n\nexport const getConstructionWorkersWithSlice = () => {\n  return people.slice(1, 2);\n};\n\nexport const getActorsWithSlice = () => {\n  return people.slice(2, 3);\n};\n\nexport const getDeveloperWithShift = () => {\n  return Array.from(people).shift();\n};\n\nexport const getActorWithPop = () => {\n  return Array.from(people).pop();\n};\n\n// Concat\nexport const numbers = [].concat(1, 2, 3);\n\n// Join\nexport const numbersAsString = numbers.join(',');\n\n// Reverse\nexport const countdown = Array.from(numbers).reverse();\n\n// Map - array of names from people\nexport const names = people.map(p => p.name);\n\n// Map - array of names from people\nexport const peopleWithGender = people.map(p => {\n  return Object.assign(p, { gender: 'male'});\n});"
+  },
+  {
+    "__docId__": 102,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "developer",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js~developer",
+    "access": null,
+    "export": false,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 103,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "constructionWorker",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js~constructionWorker",
+    "access": null,
+    "export": false,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 104,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "actor",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js~actor",
+    "access": null,
+    "export": false,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 105,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "people",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js~people",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "importStyle": "{people}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 106,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "getDevelopersWithSlice",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js~getDevelopersWithSlice",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "importStyle": "{getDevelopersWithSlice}",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 107,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "getConstructionWorkersWithSlice",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js~getConstructionWorkersWithSlice",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "importStyle": "{getConstructionWorkersWithSlice}",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 108,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "getActorsWithSlice",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js~getActorsWithSlice",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "importStyle": "{getActorsWithSlice}",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 109,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "getDeveloperWithShift",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js~getDeveloperWithShift",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "importStyle": "{getDeveloperWithShift}",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 110,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "getActorWithPop",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js~getActorWithPop",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "importStyle": "{getActorWithPop}",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 111,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "numbers",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js~numbers",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "importStyle": "{numbers}",
+    "description": null,
+    "lineNumber": 34,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 112,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "numbersAsString",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js~numbersAsString",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "importStyle": "{numbersAsString}",
+    "description": null,
+    "lineNumber": 37,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 113,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "countdown",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js~countdown",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "importStyle": "{countdown}",
+    "description": null,
+    "lineNumber": 40,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 114,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "names",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js~names",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "importStyle": "{names}",
+    "description": null,
+    "lineNumber": 43,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 115,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "peopleWithGender",
+    "memberof": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js~peopleWithGender",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/004-utility-functions/manipulating/index.js",
+    "importStyle": "{peopleWithGender}",
+    "description": null,
+    "lineNumber": 46,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 116,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/arrays/004-utility-functions/manipulating/manipulating-arrays.test.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/arrays/004-utility-functions/manipulating/manipulating-arrays.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport * as Assignment from './';\n\nTest('people are initially empty', t => {\n  t.is(Assignment.people.length, 3);\n});\n\nTest('#getDevelopersWithSlice() returns the developer', t => {\n  const people = Assignment.getDevelopersWithSlice();\n  t.is(people.length, 1);\n  t.is(people[0].name, 'Tyler');\n});\n\nTest('#getConstructionWorkersWithSlice() returns bob', t => {\n  const people = Assignment.getConstructionWorkersWithSlice();\n  t.is(people.length, 1);\n  t.is(people[0].name, 'Bob the Builder');\n});\n\nTest('#getActorsWithSlice() returns chris farley', t => {\n  const people = Assignment.getActorsWithSlice();\n  t.is(people.length, 1);\n  t.is(people[0].name, 'Chris Farley');\n});\n\nTest('#getDeveloperWithShift() returns chris farley', t => {\n  const person = Assignment.getDeveloperWithShift();\n  t.is(person.name, 'Tyler');\n});\n\nTest('#getDeveloperWithShift() returns chris farley', t => {\n  const person = Assignment.getActorWithPop();\n  t.is(person.name, 'Chris Farley');\n});\n\nTest('numbers returns [1,2,3]', t => {\n  t.is(Assignment.numbers.length, 3);\n  t.is(Assignment.numbers[0], 1);\n});\n\nTest('numbers returns 1,2,3', t => {\n  t.is(Assignment.numbersAsString, '1,2,3');\n});\n\nTest('countdown returns 3,2,1', t => {\n  t.is(Assignment.countdown.length, 3);\n  t.is(Assignment.countdown[0], 3);\n});\n\nTest('names as an array of strings', t => {\n  t.is(Assignment.names.length, 3);\n  t.is(Assignment.names[0], 'Tyler');\n});\n\nTest('peopleWithGender is original array with gender added', t => {\n  t.is(Assignment.peopleWithGender.length, 3);\n  t.is(Assignment.peopleWithGender[0].gender, 'male');\n  t.is(Assignment.peopleWithGender[0].name, 'Tyler');\n});"
+  },
+  {
+    "__docId__": 117,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/arrays/005-map-reduce/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/arrays/005-map-reduce/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Presidents from '../datasets/presidents';\n\n// Map\nexport const names = Presidents.map(p => p.name);\n\n// Map + Filter\nexport const hasJamesInName = names.filter(name => name.includes('James'));\n\n// Map + Filter + Reduce\nexport const PresidentMadison = Presidents.filter(p => p.name.includes('James Madison'))\n                                          .map(p => ({ name: p.name, party: p.party }))\n                                          .reduce((prev, current) => current, {});"
+  },
+  {
+    "__docId__": 118,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "names",
+    "memberof": "src/javascript/basics/arrays/005-map-reduce/index.js",
+    "longname": "src/javascript/basics/arrays/005-map-reduce/index.js~names",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/005-map-reduce/index.js",
+    "importStyle": "{names}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 119,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "hasJamesInName",
+    "memberof": "src/javascript/basics/arrays/005-map-reduce/index.js",
+    "longname": "src/javascript/basics/arrays/005-map-reduce/index.js~hasJamesInName",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/005-map-reduce/index.js",
+    "importStyle": "{hasJamesInName}",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 120,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "PresidentMadison",
+    "memberof": "src/javascript/basics/arrays/005-map-reduce/index.js",
+    "longname": "src/javascript/basics/arrays/005-map-reduce/index.js~PresidentMadison",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/basics/arrays/005-map-reduce/index.js",
+    "importStyle": "{PresidentMadison}",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 121,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/arrays/005-map-reduce/map-reduce.test.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/arrays/005-map-reduce/map-reduce.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport * as Assignment from './';\n\nTest('names has just strings in it', t => {\n  t.is(Assignment.names.length, 44);\n  t.is(Assignment.names[0], 'George Washington');\n});\n\nTest('Has James in it', t => {\n  t.is(Assignment.hasJamesInName.length, 5);\n});\n\nTest('President Madison', t => {\n  t.is(Assignment.PresidentMadison.party, 'Democratic-Republican');\n});"
+  },
+  {
+    "__docId__": 122,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/arrays/datasets/presidents.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/arrays/datasets/presidents.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export default [\n  {\n    name: \"George Washington\",\n    birthday: 1732,\n    death: 1799,\n    tookOffice: \"1789-04-30\",\n    leftOffice: \"1797-03-04\",\n    party: \"No Party\"\n  },\n  {\n    name: \"John Adams\",\n    birthday: 1735,\n    death: 1826,\n    tookOffice: \"1797-03-04\",\n    leftOffice: \"1801-03-04\",\n    party: \"Federalist\"\n  },\n  {\n    name: \"Thomas Jefferson\",\n    birthday: 1743,\n    death: 1826,\n    tookOffice: \"1801-03-04\",\n    leftOffice: \"1809-03-04\",\n    party: \"Democratic-Republican\"\n  },\n  {\n    name: \"James Madison\",\n    birthday: 1751,\n    death: 1836,\n    tookOffice: \"1809-03-04\",\n    leftOffice: \"1817-03-04\",\n    party: \"Democratic-Republican\"\n  },\n  {\n    name: \"James Monroe\",\n    birthday: 1758,\n    death: 1831,\n    tookOffice: \"1817-03-04\",\n    leftOffice: \"1825-03-04\",\n    party: \"Democratic-Republican\"\n  },\n  {\n    name: \"John Quincy Adams\",\n    birthday: 1767,\n    death: 1848,\n    tookOffice: \"1825-03-04\",\n    leftOffice: \"1829-03-04\",\n    party: \"Democratic-Republican\"\n  },\n  {\n    name: \"Andrew Jackson\",\n    birthday: 1767,\n    death: 1845,\n    tookOffice: \"1829-03-04\",\n    leftOffice: \"1837-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Martin Van Buren\",\n    birthday: 1782,\n    death: 1862,\n    tookOffice: \"1837-03-04\",\n    leftOffice: \"1841-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"William Henry Harrison\",\n    birthday: 1773,\n    death: 1841,\n    tookOffice: \"1841-03-04\",\n    leftOffice: \"1841-04-04\",\n    party: \"Whig\"\n  },\n  {\n    name: \"John Tyler\",\n    birthday: 1790,\n    death: 1862,\n    tookOffice: \"1841-04-04\",\n    leftOffice: \"1845-03-04\",\n    party: \"Whig\"\n  },\n  {\n    name: \"James K. Polk\",\n    birthday: 1795,\n    death: 1849,\n    tookOffice: \"1845-03-04\",\n    leftOffice: \"1849-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Zachary Taylor\",\n    birthday: 1784,\n    death: 1850,\n    tookOffice: \"1849-03-04\",\n    leftOffice: \"1850-07-09\",\n    party: \"Whig\"\n  },\n  {\n    name: \"Millard Fillmore\",\n    birthday: 1800,\n    death: 1874,\n    tookOffice: \"1850-07-09\",\n    leftOffice: \"1853-03-04\",\n    party: \"Whig\"\n  },\n  {\n    name: \"Franklin Pierce\",\n    birthday: 1804,\n    death: 1869,\n    tookOffice: \"1853-03-04\",\n    leftOffice: \"1857-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"James Buchanan\",\n    birthday: 1791,\n    death: 1868,\n    tookOffice: \"1857-03-04\",\n    leftOffice: \"1861-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Abraham Lincoln\",\n    birthday: 1809,\n    death: 1865,\n    tookOffice: \"1861-03-04\",\n    leftOffice: \"1865-04-15\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Andrew Johnson\",\n    birthday: 1808,\n    death: 1875,\n    tookOffice: \"1865-04-15\",\n    leftOffice: \"1869-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Ulysses S. Grant\",\n    birthday: 1822,\n    death: 1885,\n    tookOffice: \"1869-03-04\",\n    leftOffice: \"1877-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Rutherford B. Hayes\",\n    birthday: 1822,\n    death: 1893,\n    tookOffice: \"1877-03-04\",\n    leftOffice: \"1881-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"James A. Garfield\",\n    birthday: 1831,\n    death: 1881,\n    tookOffice: \"1881-03-04\",\n    leftOffice: \"1881-09-19\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Chester A. Arthur\",\n    birthday: 1829,\n    death: 1886,\n    tookOffice: \"1881-09-19\",\n    leftOffice: \"1885-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Grover Cleveland\",\n    birthday: 1837,\n    death: 1908,\n    tookOffice: \"1885-03-04\",\n    leftOffice: \"1889-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Benjamin Harrison\",\n    birthday: 1833,\n    death: 1901,\n    tookOffice: \"1889-03-04\",\n    leftOffice: \"1893-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Grover Cleveland\",\n    birthday: 1837,\n    death: 1908,\n    tookOffice: \"1893-03-04\",\n    leftOffice: \"1897-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"William McKinley\",\n    birthday: 1843,\n    death: 1901,\n    tookOffice: \"1897-03-04\",\n    leftOffice: \"1901-09-14\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Theodore Roosevelt\",\n    birthday: 1858,\n    death: 1919,\n    tookOffice: \"1901-09-14\",\n    leftOffice: \"1909-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"William Howard Taft\",\n    birthday: 1857,\n    death: 1930,\n    tookOffice: \"1909-03-04\",\n    leftOffice: \"1913-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Woodrow Wilson\",\n    birthday: 1856,\n    death: 1924,\n    tookOffice: \"1913-03-04\",\n    leftOffice: \"1921-03-04\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Warren G. Harding\",\n    birthday: 1865,\n    death: 1923,\n    tookOffice: \"1921-03-04\",\n    leftOffice: \"1923-08-02\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Calvin Coolidge\",\n    birthday: 1872,\n    death: 1933,\n    tookOffice: \"1923-08-02\",\n    leftOffice: \"1929-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Herbert Hoover\",\n    birthday: 1874,\n    death: 1964,\n    tookOffice: \"1929-03-04\",\n    leftOffice: \"1933-03-04\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Franklin D. Roosevelt\",\n    birthday: 1882,\n    death: 1945,\n    tookOffice: \"1933-03-04\",\n    leftOffice: \"1945-04-12\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Harry S. Truman\",\n    birthday: 1884,\n    death: 1972,\n    tookOffice: \"1945-04-12\",\n    leftOffice: \"1953-01-20\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Dwight D. Eisenhower\",\n    birthday: 1890,\n    death: 1969,\n    tookOffice: \"1953-01-20\",\n    leftOffice: \"1961-01-20\",\n    party: \"Republican\"\n  },\n  {\n    name: \"John F. Kennedy\",\n    birthday: 1917,\n    death: 1963,\n    tookOffice: \"1961-01-20\",\n    leftOffice: \"1963-11-22\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Lyndon B. Johnson\",\n    birthday: 1908,\n    death: 1973,\n    tookOffice: \"1963-11-22\",\n    leftOffice: \"1969-01-20\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Richard Nixon\",\n    birthday: 1913,\n    death: 1994,\n    tookOffice: \"1969-01-20\",\n    leftOffice: \"1974-08-09\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Gerald Ford\",\n    birthday: 1913,\n    death: 2006,\n    tookOffice: \"1974-08-09\",\n    leftOffice: \"1977-01-20\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Jimmy Carter\",\n    birthday: 1924,\n    death: null,\n    tookOffice: \"1977-01-20\",\n    leftOffice: \"1981-01-20\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"Ronald Reagan\",\n    birthday: 1911,\n    death: 2004,\n    tookOffice: \"1981-01-20\",\n    leftOffice: \"1989-01-20\",\n    party: \"Republican\"\n  },\n  {\n    name: \"George H. W. Bush\",\n    birthday: 1924,\n    death: null,\n    tookOffice: \"1989-01-20\",\n    leftOffice: \"1993-01-20\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Bill Clinton\",\n    birthday: 1946,\n    death: null,\n    tookOffice: \"1993-01-20\",\n    leftOffice: \"2001-01-20\",\n    party: \"Democratic\"\n  },\n  {\n    name: \"George W. Bush\",\n    birthday: 1946,\n    death: null,\n    tookOffice: \"2001-01-20\",\n    leftOffice: \"2009-01-20\",\n    party: \"Republican\"\n  },\n  {\n    name: \"Barack Obama\",\n    birthday: 1961,\n    death: null,\n    tookOffice: \"2009-01-20\",\n    leftOffice: null,\n    party: \"Democratic\"\n  }\n];"
+  },
+  {
+    "__docId__": 123,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/arrays/methods/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/arrays/methods/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 124,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/console/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/console/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 125,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/functions/001-callbacks/callbacks.test.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/functions/001-callbacks/callbacks.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport Assignment from './';\n\nTest(`#add function adds numbers correctly`, t => {\n  Assignment.add(1, 2, (err, result) => {\n    t.falsy(err);\n    t.is(result, 3);\n  });\n});\n\n"
+  },
+  {
+    "__docId__": 126,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/functions/001-callbacks/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/functions/001-callbacks/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export default {\n  add(x, y, callback){\n    return callback(null, x + y);\n  }\n}"
+  },
+  {
+    "__docId__": 127,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/functions/arrow-functions/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/functions/arrow-functions/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 128,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/functions/basic-functions/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/functions/basic-functions/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 129,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/functions/declaration/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/functions/declaration/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 130,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/functions/expressions/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/functions/expressions/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 131,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/functions/functions-in-objects/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/functions/functions-in-objects/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 132,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/functions/functions-with-parameters/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/functions/functions-with-parameters/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 133,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/functions/predefined/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/functions/predefined/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 134,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/functions/rest-parameters/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/functions/rest-parameters/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 135,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/functions/scope/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/functions/scope/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 136,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/promises/index.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/promises/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export default {\n  \n  add(x, y) {\n    return Promise.resolve(x + y);\n  },\n  \n  divide(x, y) {\n    return new Promise((resolve, reject) => {\n      if (y === 0) return reject(new Error(`Can't divide by 0`));\n      return resolve(x / y);\n    });\n  },\n  \n  addAndDivide(x, y) {\n    return Promise.all([this.add(x, y), this.divide(x, y)]);\n  }\n};"
+  },
+  {
+    "__docId__": 137,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/basics/promises/promises.test.js",
+    "memberof": null,
+    "longname": "src/javascript/basics/promises/promises.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport Assignment from './';\n\nTest(`#add returns a promise`, t => {\n  t.truthy(Assignment.add(1, 2).then);\n  \n  return Assignment.add(1, 2)\n                   .then(result => {\n                     t.is(result, 3);\n                   })\n});\n\nTest(`#divide returns a promise`, t => {\n  return Assignment.divide(4, 2)\n                   .then(result => {\n                     t.is(result, 2);\n                   })\n});\n\nTest(`#divide by zero is erroneous`, t => {\n  return Assignment.divide(4, 0)\n                   .then(result => t.falsy(result))\n                   .catch(err => t.truthy(err.message));\n});\n\nTest(`#addAndDivide works`, t => {\n  return Assignment.addAndDivide(4, 2)\n                   .then(result => {\n                     t.is(result[0], 6);\n                     t.is(result[1], 2);\n                   })\n});"
+  },
+  {
+    "__docId__": 138,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/intro/001-modules/importing-and-exporting/imports.js",
+    "memberof": null,
+    "longname": "src/javascript/intro/001-modules/importing-and-exporting/imports.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Modules, { meaningOfLife } from './';\n\nexport default meaningOfLife;\n\nexport const me = Modules;"
+  },
+  {
+    "__docId__": 139,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "me",
+    "memberof": "src/javascript/intro/001-modules/importing-and-exporting/imports.js",
+    "longname": "src/javascript/intro/001-modules/importing-and-exporting/imports.js~me",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/intro/001-modules/importing-and-exporting/imports.js",
+    "importStyle": "{me}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 140,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/intro/001-modules/importing-and-exporting/index.js",
+    "memberof": null,
+    "longname": "src/javascript/intro/001-modules/importing-and-exporting/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "// Write code for assignment here\n\nexport default {\n  name: 'Tyler',\n  age: 34,\n  isTeacher: true\n}\n\nexport const meaningOfLife = 42;\n\n"
+  },
+  {
+    "__docId__": 141,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "meaningOfLife",
+    "memberof": "src/javascript/intro/001-modules/importing-and-exporting/index.js",
+    "longname": "src/javascript/intro/001-modules/importing-and-exporting/index.js~meaningOfLife",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/intro/001-modules/importing-and-exporting/index.js",
+    "importStyle": "{meaningOfLife}",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 142,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/intro/001-modules/importing-and-exporting/modules.test.js",
+    "memberof": null,
+    "longname": "src/javascript/intro/001-modules/importing-and-exporting/modules.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport Imports, {me} from './imports';\n\nTest('Imports uses meaning of life', t => {\n  t.is(Imports, 42);\n});\n\nTest('Exports me', t => {\n  t.truthy(me['name']);\n  t.truthy(me['age']);\n  t.truthy(me['isTeacher']);\n});"
+  },
+  {
+    "__docId__": 143,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/intro/002-control-flow/001-conditionals/conditional.test.js",
+    "memberof": null,
+    "longname": "src/javascript/intro/002-control-flow/001-conditionals/conditional.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport * as Assignment from './';\n\nTest('#greet() when age is over 18', t => {\n  t.is(Assignment.greeting(21), 'Hello!');\n});\n\nTest('#greet() when age is under 18', t => {\n  t.is(Assignment.greeting(1), 'Yo!');\n});\n\nTest(`#isTacoTuesday() when it's tuesday`, t => {\n  t.truthy(Assignment.isTacoTuesday('tuesday'));\n});\n\nTest(`#isTacoTuesday() when it's wednesday`, t => {\n  t.falsy(Assignment.isTacoTuesday('wednesday'));\n});"
+  },
+  {
+    "__docId__": 144,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/intro/002-control-flow/001-conditionals/index.js",
+    "memberof": null,
+    "longname": "src/javascript/intro/002-control-flow/001-conditionals/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const greeting = (age = 0) => age > 18 ? 'Hello!' : 'Yo!';\n\nexport const isTacoTuesday = (day = '') => {\n  day = day.toLowerCase();\n  switch (day) {\n    case 'tuesday':\n      return true;\n    case 'sunday':\n    case 'monday':\n    case 'wednesday':\n    case 'thursday':\n    case 'friday':\n    case 'saturday':\n    default:\n      return false;\n  }\n};\n\n"
+  },
+  {
+    "__docId__": 145,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "greeting",
+    "memberof": "src/javascript/intro/002-control-flow/001-conditionals/index.js",
+    "longname": "src/javascript/intro/002-control-flow/001-conditionals/index.js~greeting",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/intro/002-control-flow/001-conditionals/index.js",
+    "importStyle": "{greeting}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 146,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "isTacoTuesday",
+    "memberof": "src/javascript/intro/002-control-flow/001-conditionals/index.js",
+    "longname": "src/javascript/intro/002-control-flow/001-conditionals/index.js~isTacoTuesday",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/intro/002-control-flow/001-conditionals/index.js",
+    "importStyle": "{isTacoTuesday}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 147,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/intro/002-control-flow/002-looping/index.js",
+    "memberof": null,
+    "longname": "src/javascript/intro/002-control-flow/002-looping/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 148,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/intro/002-control-flow/003-try-catch/index.js",
+    "memberof": null,
+    "longname": "src/javascript/intro/002-control-flow/003-try-catch/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "\nconst bad = () => {\n  throw Error('Bad code')\n};\n\nexport default () => {\n  try {\n    bad();\n  } catch (err) {\n    return true;\n  }\n}"
+  },
+  {
+    "__docId__": 149,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "bad",
+    "memberof": "src/javascript/intro/002-control-flow/003-try-catch/index.js",
+    "longname": "src/javascript/intro/002-control-flow/003-try-catch/index.js~bad",
+    "access": null,
+    "export": false,
+    "importPath": "full-stack-node-assignments/src/javascript/intro/002-control-flow/003-try-catch/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 150,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/intro/002-control-flow/003-try-catch/try-catch.test.js",
+    "memberof": null,
+    "longname": "src/javascript/intro/002-control-flow/003-try-catch/try-catch.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport Assignment from './';\n\nTest('catch the error with a try/catch', t => {\n  const result = Assignment();\n  t.truthy(result);\n});"
+  },
+  {
+    "__docId__": 151,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/intro/002-typing/index.js",
+    "memberof": null,
+    "longname": "src/javascript/intro/002-typing/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export default {\n  isTrue: true,\n  isFalse: false,\n  email: 'tjgarlick@gmail.com',\n  age: 35,\n  phone: '8012012200',\n  favoriteFoods: ['Apple', 'Banana', 'Potato'],\n  name: {\n    first: \"Tyler\",\n    last: \"Garlick\"\n  },\n  notDefined: undefined,\n  nullable: null,\n  greet() {\n    return 'Hello'\n  },\n  emptyString: \"\",\n  zero: 0,\n  one: 1\n}"
+  },
+  {
+    "__docId__": 152,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/intro/grammer/001-variables/index.js",
+    "memberof": null,
+    "longname": "src/javascript/intro/grammer/001-variables/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "// create a variable using var\n\nexport var message = 'hello';\n\nexport let greeting = 'Yo!';\n\nexport const saying = 'What up';\n"
+  },
+  {
+    "__docId__": 153,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "message",
+    "memberof": "src/javascript/intro/grammer/001-variables/index.js",
+    "longname": "src/javascript/intro/grammer/001-variables/index.js~message",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/intro/grammer/001-variables/index.js",
+    "importStyle": "{message}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 154,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "greeting",
+    "memberof": "src/javascript/intro/grammer/001-variables/index.js",
+    "longname": "src/javascript/intro/grammer/001-variables/index.js~greeting",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/intro/grammer/001-variables/index.js",
+    "importStyle": "{greeting}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 155,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "saying",
+    "memberof": "src/javascript/intro/grammer/001-variables/index.js",
+    "longname": "src/javascript/intro/grammer/001-variables/index.js~saying",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/intro/grammer/001-variables/index.js",
+    "importStyle": "{saying}",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 156,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/intro/grammer/001-variables/variables.test.js",
+    "memberof": null,
+    "longname": "src/javascript/intro/grammer/001-variables/variables.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport * as Assignment from './';\n\nTest('greeting is proper', t => {\n  t.is(Assignment.greeting, 'Yo!');\n});\n\nTest('message is proper', t => {\n  t.is(Assignment.message, 'hello');\n});\n\nTest('saying is proper', t => {\n  t.is(Assignment.saying, 'What up');\n});"
+  },
+  {
+    "__docId__": 157,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/intro/grammer/literals/index.js",
+    "memberof": null,
+    "longname": "src/javascript/intro/grammer/literals/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export let person = { name: 'Bob', age: 42};\nexport let song = 'Twinkle, Twinkle, little star';\nexport let meaningOfLife = 42;"
+  },
+  {
+    "__docId__": 158,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "person",
+    "memberof": "src/javascript/intro/grammer/literals/index.js",
+    "longname": "src/javascript/intro/grammer/literals/index.js~person",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/intro/grammer/literals/index.js",
+    "importStyle": "{person}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 159,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "song",
+    "memberof": "src/javascript/intro/grammer/literals/index.js",
+    "longname": "src/javascript/intro/grammer/literals/index.js~song",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/intro/grammer/literals/index.js",
+    "importStyle": "{song}",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 160,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "meaningOfLife",
+    "memberof": "src/javascript/intro/grammer/literals/index.js",
+    "longname": "src/javascript/intro/grammer/literals/index.js~meaningOfLife",
+    "access": null,
+    "export": true,
+    "importPath": "full-stack-node-assignments/src/javascript/intro/grammer/literals/index.js",
+    "importStyle": "{meaningOfLife}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 161,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/javascript/intro/grammer/literals/literals.test.js",
+    "memberof": null,
+    "longname": "src/javascript/intro/grammer/literals/literals.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import Test from 'ava';\nimport * as Assignment from './';\n\nTest('object literal is a person', t => {\n  t.is(typeof(Assignment.person), 'object');\n  t.is(Assignment.person.name, 'Bob');\n  t.is(Assignment.person.age, 42);\n});\n\nTest('string literal', t => {\n  t.is(typeof(Assignment.song), 'string');\n  t.is(Assignment.song, 'Twinkle, Twinkle, little star');\n});\n\nTest('number literal', t => {\n  t.is(typeof(Assignment.meaningOfLife), 'number');\n  t.is(Assignment.meaningOfLife, 42);\n});\n\n\n"
+  },
+  {
+    "__docId__": 162,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/advanced/child-processes/index.js",
+    "memberof": null,
+    "longname": "src/node/advanced/child-processes/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 163,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/advanced/cluster/index.js",
+    "memberof": null,
+    "longname": "src/node/advanced/cluster/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 164,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/advanced/cryptography/index.js",
+    "memberof": null,
+    "longname": "src/node/advanced/cryptography/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 165,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/advanced/dns/index.js",
+    "memberof": null,
+    "longname": "src/node/advanced/dns/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 166,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/advanced/errors/index.js",
+    "memberof": null,
+    "longname": "src/node/advanced/errors/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 167,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/advanced/os/index.js",
+    "memberof": null,
+    "longname": "src/node/advanced/os/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 168,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/advanced/query-strings/index.js",
+    "memberof": null,
+    "longname": "src/node/advanced/query-strings/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 169,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/advanced/streams/index.js",
+    "memberof": null,
+    "longname": "src/node/advanced/streams/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 170,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/advanced/tls-ssl/index.js",
+    "memberof": null,
+    "longname": "src/node/advanced/tls-ssl/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 171,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/advanced/udp-datagram/index.js",
+    "memberof": null,
+    "longname": "src/node/advanced/udp-datagram/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 172,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/advanced/vm/index.js",
+    "memberof": null,
+    "longname": "src/node/advanced/vm/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 173,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/advanced/zlib/index.js",
+    "memberof": null,
+    "longname": "src/node/advanced/zlib/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 174,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/debugger/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/debugger/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 175,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/directory-structure/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/directory-structure/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 176,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/events/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/events/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 177,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/file-system/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/file-system/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 178,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/globals/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/globals/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 179,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/http/apis/versioning/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/http/apis/versioning/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 180,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/http/express/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/http/express/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 181,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/http/hapi/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/http/hapi/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 182,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/http/server/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/http/server/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 183,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/http/status-codes/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/http/status-codes/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 184,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/http/verbs/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/http/verbs/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 185,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/logging/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/logging/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 186,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/modules/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/modules/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 187,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/npm/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/npm/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 188,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/process/process-and-environment-variables/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/process/process-and-environment-variables/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 189,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/readline/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/readline/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 190,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/testing/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/testing/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 191,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/url/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/url/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 192,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/node/basics/utilities/index.js",
+    "memberof": null,
+    "longname": "src/node/basics/utilities/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 193,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/npm/basics/publishing/index.js",
+    "memberof": null,
+    "longname": "src/npm/basics/publishing/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 194,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/npm/intro/package-scoping/index.js",
+    "memberof": null,
+    "longname": "src/npm/intro/package-scoping/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 195,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/npm/intro/packages/index.js",
+    "memberof": null,
+    "longname": "src/npm/intro/packages/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 197,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Infinity",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 198,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~NaN",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 199,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~undefined",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 200,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~null",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 201,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Object",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 202,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~object",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 203,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Function",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 204,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~function",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 205,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Boolean",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 206,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~boolean",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 207,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Symbol",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 208,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Error",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 209,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~EvalError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 210,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~InternalError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 211,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~RangeError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 212,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~ReferenceError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 213,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~SyntaxError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 214,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~TypeError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 215,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~URIError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 216,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Number",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 217,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~number",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 218,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Date",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 219,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~String",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 220,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~string",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 221,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~RegExp",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 222,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 223,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Int8Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 224,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint8Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 225,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint8ClampedArray",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 226,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Int16Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 227,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint16Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 228,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Int32Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 229,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint32Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 230,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Float32Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 231,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Float64Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 232,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Map",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 233,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Set",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 234,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~WeakMap",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 235,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~WeakSet",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 236,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~ArrayBuffer",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 237,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~DataView",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 238,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~JSON",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 239,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Promise",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 240,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Generator",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 241,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~GeneratorFunction",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 242,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Reflect",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 243,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Proxy",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 245,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "CanvasRenderingContext2D",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~CanvasRenderingContext2D",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 246,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "DocumentFragment",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~DocumentFragment",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 247,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Element",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Element",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~Element",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 248,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Event",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Event",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~Event",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 249,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Node",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Node",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~Node",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 250,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "NodeList",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/NodeList",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~NodeList",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 251,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "XMLHttpRequest",
+    "externalLink": "https://developer.mozilla.org/en/docs/Web/API/XMLHttpRequest",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~XMLHttpRequest",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 252,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "AudioContext",
+    "externalLink": "https://developer.mozilla.org/en/docs/Web/API/AudioContext",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~AudioContext",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  }
+]

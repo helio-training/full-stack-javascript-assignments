@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../../../">
+  <title data-ice="title">src/javascript/basics/arrays/001-simple-types/index.js | API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <a data-ice="repoURL" href="https://TylerGarlick@github.com/helio-training/full-stack-node-assignments">Repository</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">javascript/advanced/functional</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-isAlive">isAlive</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-isBill">isBill</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-isCurrent">isCurrent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-isCurrentAndBill">isCurrentAndBill</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-isDemocrat">isDemocrat</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-isRepublican">isRepublican</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-isRepublicanCurrentBill">isRepublicanCurrentBill</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sortByCurrentStatusDate">sortByCurrentStatusDate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sponsor">sponsor</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">javascript/basics/003-objects/001-object-literals</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FACTIONS">FACTIONS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Megatron">Megatron</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-OptimusPrime">OptimusPrime</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">javascript/basics/003-objects/classes/002-classes-and-objects</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Megatron.html">Megatron</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~OptimusPrime.html">OptimusPrime</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js~Robot.html">Robot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FACTIONS">FACTIONS</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">javascript/basics/003-objects/classes/getters-setters</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/javascript/basics/003-objects/classes/getters-setters/index.js~Person.html">Person</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">javascript/basics/003-objects/classes/inheritance</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/javascript/basics/003-objects/classes/inheritance/index.js~Cat.html">Cat</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/javascript/basics/003-objects/classes/inheritance/index.js~Dog.html">Dog</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/javascript/basics/003-objects/classes/inheritance/index.js~Mammal.html">Mammal</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">javascript/basics/arrays/001-simple-types</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Presidents">Presidents</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Primes">Primes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Vowels">Vowels</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">javascript/basics/arrays/002-mixed-typed</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FunctionsAndStrings">FunctionsAndStrings</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-NumbersAndStrings">NumbersAndStrings</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">javascript/basics/arrays/003-multi-diminsional</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Jagged">Jagged</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Matrix">Matrix</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">javascript/basics/arrays/004-utility-functions/filtering</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DemocraticSenatorStates">DemocraticSenatorStates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DemocraticSenators">DemocraticSenators</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-HasIndependentSenators">HasIndependentSenators</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-IndependentSenatorStates">IndependentSenatorStates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-IndependentSenators">IndependentSenators</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RepublicanSenators">RepublicanSenators</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RupublicanSenatorStates">RupublicanSenatorStates</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SenatorInUtah">SenatorInUtah</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-States">States</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UtahHasRepublicanSenator">UtahHasRepublicanSenator</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">javascript/basics/arrays/004-utility-functions/manipulating</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-countdown">countdown</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getActorWithPop">getActorWithPop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getActorsWithSlice">getActorsWithSlice</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getConstructionWorkersWithSlice">getConstructionWorkersWithSlice</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getDeveloperWithShift">getDeveloperWithShift</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getDevelopersWithSlice">getDevelopersWithSlice</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-names">names</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-numbers">numbers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-numbersAsString">numbersAsString</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-people">people</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-peopleWithGender">peopleWithGender</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">javascript/basics/arrays/005-map-reduce</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PresidentMadison">PresidentMadison</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-hasJamesInName">hasJamesInName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-names">names</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">javascript/intro/001-modules/importing-and-exporting</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-me">me</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-meaningOfLife">meaningOfLife</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">javascript/intro/002-control-flow/001-conditionals</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-greeting">greeting</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-isTacoTuesday">isTacoTuesday</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">javascript/intro/grammer/001-variables</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-greeting">greeting</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-message">message</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-saying">saying</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">javascript/intro/grammer/literals</div><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-meaningOfLife">meaningOfLife</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-person">person</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-song">song</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/javascript/basics/arrays/001-simple-types/index.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+ * All the prime numbers between 1 - 100
+ *
+ * @type {[Number]}
+ */
+export const Primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];
+
+/**
+ * Vowels in English
+ *
+ * @type {[String]}
+ */
+export const Vowels = [&apos;a&apos;, &apos;e&apos;, &apos;i&apos;, &apos;o&apos;, &apos;u&apos;];
+
+/**
+ * Presidents of the United States
+ * @type {[Object]}
+ */
+export const Presidents = [
+  {
+    name: &quot;George Washington&quot;,
+    birthday: 1732,
+    death: 1799,
+    tookOffice: &quot;1789-04-30&quot;,
+    leftOffice: &quot;1797-03-04&quot;,
+    party: &quot;No Party&quot;
+  },
+  {
+    name: &quot;John Adams&quot;,
+    birthday: 1735,
+    death: 1826,
+    tookOffice: &quot;1797-03-04&quot;,
+    leftOffice: &quot;1801-03-04&quot;,
+    party: &quot;Federalist&quot;
+  },
+  {
+    name: &quot;Thomas Jefferson&quot;,
+    birthday: 1743,
+    death: 1826,
+    tookOffice: &quot;1801-03-04&quot;,
+    leftOffice: &quot;1809-03-04&quot;,
+    party: &quot;Democratic-Republican&quot;
+  },
+  {
+    name: &quot;James Madison&quot;,
+    birthday: 1751,
+    death: 1836,
+    tookOffice: &quot;1809-03-04&quot;,
+    leftOffice: &quot;1817-03-04&quot;,
+    party: &quot;Democratic-Republican&quot;
+  },
+  {
+    name: &quot;James Monroe&quot;,
+    birthday: 1758,
+    death: 1831,
+    tookOffice: &quot;1817-03-04&quot;,
+    leftOffice: &quot;1825-03-04&quot;,
+    party: &quot;Democratic-Republican&quot;
+  },
+  {
+    name: &quot;John Quincy Adams&quot;,
+    birthday: 1767,
+    death: 1848,
+    tookOffice: &quot;1825-03-04&quot;,
+    leftOffice: &quot;1829-03-04&quot;,
+    party: &quot;Democratic-Republican&quot;
+  },
+  {
+    name: &quot;Andrew Jackson&quot;,
+    birthday: 1767,
+    death: 1845,
+    tookOffice: &quot;1829-03-04&quot;,
+    leftOffice: &quot;1837-03-04&quot;,
+    party: &quot;Democratic&quot;
+  },
+  {
+    name: &quot;Martin Van Buren&quot;,
+    birthday: 1782,
+    death: 1862,
+    tookOffice: &quot;1837-03-04&quot;,
+    leftOffice: &quot;1841-03-04&quot;,
+    party: &quot;Democratic&quot;
+  },
+  {
+    name: &quot;William Henry Harrison&quot;,
+    birthday: 1773,
+    death: 1841,
+    tookOffice: &quot;1841-03-04&quot;,
+    leftOffice: &quot;1841-04-04&quot;,
+    party: &quot;Whig&quot;
+  },
+  {
+    name: &quot;John Tyler&quot;,
+    birthday: 1790,
+    death: 1862,
+    tookOffice: &quot;1841-04-04&quot;,
+    leftOffice: &quot;1845-03-04&quot;,
+    party: &quot;Whig&quot;
+  },
+  {
+    name: &quot;James K. Polk&quot;,
+    birthday: 1795,
+    death: 1849,
+    tookOffice: &quot;1845-03-04&quot;,
+    leftOffice: &quot;1849-03-04&quot;,
+    party: &quot;Democratic&quot;
+  },
+  {
+    name: &quot;Zachary Taylor&quot;,
+    birthday: 1784,
+    death: 1850,
+    tookOffice: &quot;1849-03-04&quot;,
+    leftOffice: &quot;1850-07-09&quot;,
+    party: &quot;Whig&quot;
+  },
+  {
+    name: &quot;Millard Fillmore&quot;,
+    birthday: 1800,
+    death: 1874,
+    tookOffice: &quot;1850-07-09&quot;,
+    leftOffice: &quot;1853-03-04&quot;,
+    party: &quot;Whig&quot;
+  },
+  {
+    name: &quot;Franklin Pierce&quot;,
+    birthday: 1804,
+    death: 1869,
+    tookOffice: &quot;1853-03-04&quot;,
+    leftOffice: &quot;1857-03-04&quot;,
+    party: &quot;Democratic&quot;
+  },
+  {
+    name: &quot;James Buchanan&quot;,
+    birthday: 1791,
+    death: 1868,
+    tookOffice: &quot;1857-03-04&quot;,
+    leftOffice: &quot;1861-03-04&quot;,
+    party: &quot;Democratic&quot;
+  },
+  {
+    name: &quot;Abraham Lincoln&quot;,
+    birthday: 1809,
+    death: 1865,
+    tookOffice: &quot;1861-03-04&quot;,
+    leftOffice: &quot;1865-04-15&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;Andrew Johnson&quot;,
+    birthday: 1808,
+    death: 1875,
+    tookOffice: &quot;1865-04-15&quot;,
+    leftOffice: &quot;1869-03-04&quot;,
+    party: &quot;Democratic&quot;
+  },
+  {
+    name: &quot;Ulysses S. Grant&quot;,
+    birthday: 1822,
+    death: 1885,
+    tookOffice: &quot;1869-03-04&quot;,
+    leftOffice: &quot;1877-03-04&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;Rutherford B. Hayes&quot;,
+    birthday: 1822,
+    death: 1893,
+    tookOffice: &quot;1877-03-04&quot;,
+    leftOffice: &quot;1881-03-04&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;James A. Garfield&quot;,
+    birthday: 1831,
+    death: 1881,
+    tookOffice: &quot;1881-03-04&quot;,
+    leftOffice: &quot;1881-09-19&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;Chester A. Arthur&quot;,
+    birthday: 1829,
+    death: 1886,
+    tookOffice: &quot;1881-09-19&quot;,
+    leftOffice: &quot;1885-03-04&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;Grover Cleveland&quot;,
+    birthday: 1837,
+    death: 1908,
+    tookOffice: &quot;1885-03-04&quot;,
+    leftOffice: &quot;1889-03-04&quot;,
+    party: &quot;Democratic&quot;
+  },
+  {
+    name: &quot;Benjamin Harrison&quot;,
+    birthday: 1833,
+    death: 1901,
+    tookOffice: &quot;1889-03-04&quot;,
+    leftOffice: &quot;1893-03-04&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;Grover Cleveland&quot;,
+    birthday: 1837,
+    death: 1908,
+    tookOffice: &quot;1893-03-04&quot;,
+    leftOffice: &quot;1897-03-04&quot;,
+    party: &quot;Democratic&quot;
+  },
+  {
+    name: &quot;William McKinley&quot;,
+    birthday: 1843,
+    death: 1901,
+    tookOffice: &quot;1897-03-04&quot;,
+    leftOffice: &quot;1901-09-14&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;Theodore Roosevelt&quot;,
+    birthday: 1858,
+    death: 1919,
+    tookOffice: &quot;1901-09-14&quot;,
+    leftOffice: &quot;1909-03-04&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;William Howard Taft&quot;,
+    birthday: 1857,
+    death: 1930,
+    tookOffice: &quot;1909-03-04&quot;,
+    leftOffice: &quot;1913-03-04&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;Woodrow Wilson&quot;,
+    birthday: 1856,
+    death: 1924,
+    tookOffice: &quot;1913-03-04&quot;,
+    leftOffice: &quot;1921-03-04&quot;,
+    party: &quot;Democratic&quot;
+  },
+  {
+    name: &quot;Warren G. Harding&quot;,
+    birthday: 1865,
+    death: 1923,
+    tookOffice: &quot;1921-03-04&quot;,
+    leftOffice: &quot;1923-08-02&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;Calvin Coolidge&quot;,
+    birthday: 1872,
+    death: 1933,
+    tookOffice: &quot;1923-08-02&quot;,
+    leftOffice: &quot;1929-03-04&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;Herbert Hoover&quot;,
+    birthday: 1874,
+    death: 1964,
+    tookOffice: &quot;1929-03-04&quot;,
+    leftOffice: &quot;1933-03-04&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;Franklin D. Roosevelt&quot;,
+    birthday: 1882,
+    death: 1945,
+    tookOffice: &quot;1933-03-04&quot;,
+    leftOffice: &quot;1945-04-12&quot;,
+    party: &quot;Democratic&quot;
+  },
+  {
+    name: &quot;Harry S. Truman&quot;,
+    birthday: 1884,
+    death: 1972,
+    tookOffice: &quot;1945-04-12&quot;,
+    leftOffice: &quot;1953-01-20&quot;,
+    party: &quot;Democratic&quot;
+  },
+  {
+    name: &quot;Dwight D. Eisenhower&quot;,
+    birthday: 1890,
+    death: 1969,
+    tookOffice: &quot;1953-01-20&quot;,
+    leftOffice: &quot;1961-01-20&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;John F. Kennedy&quot;,
+    birthday: 1917,
+    death: 1963,
+    tookOffice: &quot;1961-01-20&quot;,
+    leftOffice: &quot;1963-11-22&quot;,
+    party: &quot;Democratic&quot;
+  },
+  {
+    name: &quot;Lyndon B. Johnson&quot;,
+    birthday: 1908,
+    death: 1973,
+    tookOffice: &quot;1963-11-22&quot;,
+    leftOffice: &quot;1969-01-20&quot;,
+    party: &quot;Democratic&quot;
+  },
+  {
+    name: &quot;Richard Nixon&quot;,
+    birthday: 1913,
+    death: 1994,
+    tookOffice: &quot;1969-01-20&quot;,
+    leftOffice: &quot;1974-08-09&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;Gerald Ford&quot;,
+    birthday: 1913,
+    death: 2006,
+    tookOffice: &quot;1974-08-09&quot;,
+    leftOffice: &quot;1977-01-20&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;Jimmy Carter&quot;,
+    birthday: 1924,
+    death: null,
+    tookOffice: &quot;1977-01-20&quot;,
+    leftOffice: &quot;1981-01-20&quot;,
+    party: &quot;Democratic&quot;
+  },
+  {
+    name: &quot;Ronald Reagan&quot;,
+    birthday: 1911,
+    death: 2004,
+    tookOffice: &quot;1981-01-20&quot;,
+    leftOffice: &quot;1989-01-20&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;George H. W. Bush&quot;,
+    birthday: 1924,
+    death: null,
+    tookOffice: &quot;1989-01-20&quot;,
+    leftOffice: &quot;1993-01-20&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;Bill Clinton&quot;,
+    birthday: 1946,
+    death: null,
+    tookOffice: &quot;1993-01-20&quot;,
+    leftOffice: &quot;2001-01-20&quot;,
+    party: &quot;Democratic&quot;
+  },
+  {
+    name: &quot;George W. Bush&quot;,
+    birthday: 1946,
+    death: null,
+    tookOffice: &quot;2001-01-20&quot;,
+    leftOffice: &quot;2009-01-20&quot;,
+    party: &quot;Republican&quot;
+  },
+  {
+    name: &quot;Barack Obama&quot;,
+    birthday: 1961,
+    death: null,
+    tookOffice: &quot;2009-01-20&quot;,
+    leftOffice: null,
+    party: &quot;Democratic&quot;
+  }
+];</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.4.8)</span></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

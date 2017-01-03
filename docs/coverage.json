@@ -1,0 +1,178 @@
+{
+  "coverage": "3.79%",
+  "expectCount": 79,
+  "actualCount": 3,
+  "files": {
+    "src/javascript/basics/003-objects/classes/inheritance/index.js": {
+      "expectCount": 10,
+      "actualCount": 0,
+      "undocumentLines": [
+        22,
+        11,
+        1,
+        13,
+        2,
+        24,
+        28,
+        17,
+        3,
+        6
+      ]
+    },
+    "src/javascript/basics/arrays/004-utility-functions/filtering/index.js": {
+      "expectCount": 10,
+      "actualCount": 0,
+      "undocumentLines": [
+        14,
+        10,
+        23,
+        15,
+        11,
+        9,
+        13,
+        19,
+        17,
+        21
+      ]
+    },
+    "src/javascript/basics/003-objects/001-object-literals/index.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        20,
+        10
+      ]
+    },
+    "src/javascript/basics/003-objects/classes/002-classes-and-objects/index.js": {
+      "expectCount": 11,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        42,
+        35,
+        6,
+        8,
+        37,
+        44,
+        22,
+        30,
+        14,
+        26
+      ]
+    },
+    "src/javascript/basics/arrays/002-mixed-typed/index.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        1
+      ]
+    },
+    "src/javascript/basics/arrays/003-multi-diminsional/index.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        8,
+        1
+      ]
+    },
+    "src/javascript/basics/003-objects/classes/getters-setters/index.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        15,
+        19,
+        6,
+        11
+      ]
+    },
+    "src/javascript/basics/arrays/005-map-reduce/index.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        7,
+        4
+      ]
+    },
+    "src/javascript/basics/arrays/001-simple-types/index.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "src/javascript/basics/arrays/004-utility-functions/manipulating/index.js": {
+      "expectCount": 11,
+      "actualCount": 0,
+      "undocumentLines": [
+        40,
+        29,
+        21,
+        17,
+        25,
+        13,
+        43,
+        34,
+        37,
+        5,
+        46
+      ]
+    },
+    "src/javascript/intro/002-control-flow/001-conditionals/index.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        3
+      ]
+    },
+    "src/javascript/intro/grammer/001-variables/index.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        3,
+        7
+      ]
+    },
+    "src/javascript/advanced/functional/index.js": {
+      "expectCount": 9,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        7,
+        5,
+        17,
+        13,
+        12,
+        19,
+        15,
+        10
+      ]
+    },
+    "src/javascript/intro/001-modules/importing-and-exporting/imports.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        5
+      ]
+    },
+    "src/javascript/intro/001-modules/importing-and-exporting/index.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        9
+      ]
+    },
+    "src/javascript/intro/grammer/literals/index.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        1,
+        2
+      ]
+    }
+  }
+}

@@ -1,0 +1,2284 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 701,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 19,
+      "column": 90
+    }
+  },
+  "sourceType": "module",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 22,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 22
+        }
+      },
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 7,
+          "end": 8,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 7
+            },
+            "end": {
+              "line": 1,
+              "column": 8
+            }
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 7,
+            "end": 8,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 7
+              },
+              "end": {
+                "line": 1,
+                "column": 8
+              }
+            },
+            "name": "R"
+          }
+        }
+      ],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 14,
+        "end": 21,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 21
+          }
+        },
+        "value": "ramda",
+        "rawValue": "ramda",
+        "raw": "'ramda'"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 24,
+      "end": 87,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 63
+        }
+      },
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 31,
+        "end": 87,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 7
+          },
+          "end": {
+            "line": 3,
+            "column": 63
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 37,
+            "end": 86,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 13
+              },
+              "end": {
+                "line": 3,
+                "column": 62
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 37,
+              "end": 44,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 13
+                },
+                "end": {
+                  "line": 3,
+                  "column": 20
+                }
+              },
+              "name": "isAlive"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 47,
+              "end": 86,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 23
+                },
+                "end": {
+                  "line": 3,
+                  "column": 62
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 47,
+                "end": 55,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 23
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 31
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 47,
+                  "end": 48,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 23
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 24
+                    }
+                  },
+                  "name": "R"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 49,
+                  "end": 55,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 25
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 31
+                    }
+                  },
+                  "name": "filter"
+                },
+                "computed": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 56,
+                  "end": 85,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 32
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 61
+                    }
+                  },
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 56,
+                    "end": 65,
+                    "loc": {
+                      "start": {
+                        "line": 3,
+                        "column": 32
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 41
+                      }
+                    },
+                    "object": {
+                      "type": "Identifier",
+                      "start": 56,
+                      "end": 57,
+                      "loc": {
+                        "start": {
+                          "line": 3,
+                          "column": 32
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 33
+                        }
+                      },
+                      "name": "R"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 58,
+                      "end": 65,
+                      "loc": {
+                        "start": {
+                          "line": 3,
+                          "column": 34
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 41
+                        }
+                      },
+                      "name": "whereEq"
+                    },
+                    "computed": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "ObjectExpression",
+                      "start": 66,
+                      "end": 84,
+                      "loc": {
+                        "start": {
+                          "line": 3,
+                          "column": 42
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 60
+                        }
+                      },
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 68,
+                          "end": 82,
+                          "loc": {
+                            "start": {
+                              "line": 3,
+                              "column": 44
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 58
+                            }
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 68,
+                            "end": 76,
+                            "loc": {
+                              "start": {
+                                "line": 3,
+                                "column": 44
+                              },
+                              "end": {
+                                "line": 3,
+                                "column": 52
+                              }
+                            },
+                            "name": "is_alive"
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "start": 78,
+                            "end": 82,
+                            "loc": {
+                              "start": {
+                                "line": 3,
+                                "column": 54
+                              },
+                              "end": {
+                                "line": 3,
+                                "column": 58
+                              }
+                            },
+                            "value": true,
+                            "rawValue": true,
+                            "raw": "true"
+                          },
+                          "kind": "init"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "const",
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 89,
+      "end": 156,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 67
+        }
+      },
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 96,
+        "end": 156,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 7
+          },
+          "end": {
+            "line": 5,
+            "column": 67
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 102,
+            "end": 155,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 13
+              },
+              "end": {
+                "line": 5,
+                "column": 66
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 102,
+              "end": 111,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 13
+                },
+                "end": {
+                  "line": 5,
+                  "column": 22
+                }
+              },
+              "name": "isCurrent"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 114,
+              "end": 155,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 25
+                },
+                "end": {
+                  "line": 5,
+                  "column": 66
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 114,
+                "end": 122,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 25
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 33
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 114,
+                  "end": 115,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 25
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 26
+                    }
+                  },
+                  "name": "R"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 116,
+                  "end": 122,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 27
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 33
+                    }
+                  },
+                  "name": "filter"
+                },
+                "computed": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 123,
+                  "end": 154,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 34
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 65
+                    }
+                  },
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 123,
+                    "end": 132,
+                    "loc": {
+                      "start": {
+                        "line": 5,
+                        "column": 34
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 43
+                      }
+                    },
+                    "object": {
+                      "type": "Identifier",
+                      "start": 123,
+                      "end": 124,
+                      "loc": {
+                        "start": {
+                          "line": 5,
+                          "column": 34
+                        },
+                        "end": {
+                          "line": 5,
+                          "column": 35
+                        }
+                      },
+                      "name": "R"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 125,
+                      "end": 132,
+                      "loc": {
+                        "start": {
+                          "line": 5,
+                          "column": 36
+                        },
+                        "end": {
+                          "line": 5,
+                          "column": 43
+                        }
+                      },
+                      "name": "whereEq"
+                    },
+                    "computed": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "ObjectExpression",
+                      "start": 133,
+                      "end": 153,
+                      "loc": {
+                        "start": {
+                          "line": 5,
+                          "column": 44
+                        },
+                        "end": {
+                          "line": 5,
+                          "column": 64
+                        }
+                      },
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 135,
+                          "end": 151,
+                          "loc": {
+                            "start": {
+                              "line": 5,
+                              "column": 46
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 62
+                            }
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 135,
+                            "end": 145,
+                            "loc": {
+                              "start": {
+                                "line": 5,
+                                "column": 46
+                              },
+                              "end": {
+                                "line": 5,
+                                "column": 56
+                              }
+                            },
+                            "name": "is_current"
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "start": 147,
+                            "end": 151,
+                            "loc": {
+                              "start": {
+                                "line": 5,
+                                "column": 58
+                              },
+                              "end": {
+                                "line": 5,
+                                "column": 62
+                              }
+                            },
+                            "value": true,
+                            "rawValue": true,
+                            "raw": "true"
+                          },
+                          "kind": "init"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "const",
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 158,
+      "end": 234,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 76
+        }
+      },
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 165,
+        "end": 234,
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 7
+          },
+          "end": {
+            "line": 7,
+            "column": 76
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 171,
+            "end": 233,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 13
+              },
+              "end": {
+                "line": 7,
+                "column": 75
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 171,
+              "end": 177,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 13
+                },
+                "end": {
+                  "line": 7,
+                  "column": 19
+                }
+              },
+              "name": "isBill"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 180,
+              "end": 233,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 22
+                },
+                "end": {
+                  "line": 7,
+                  "column": 75
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 180,
+                "end": 188,
+                "loc": {
+                  "start": {
+                    "line": 7,
+                    "column": 22
+                  },
+                  "end": {
+                    "line": 7,
+                    "column": 30
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 180,
+                  "end": 181,
+                  "loc": {
+                    "start": {
+                      "line": 7,
+                      "column": 22
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 23
+                    }
+                  },
+                  "name": "R"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 182,
+                  "end": 188,
+                  "loc": {
+                    "start": {
+                      "line": 7,
+                      "column": 24
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 30
+                    }
+                  },
+                  "name": "filter"
+                },
+                "computed": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 189,
+                  "end": 232,
+                  "loc": {
+                    "start": {
+                      "line": 7,
+                      "column": 31
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 74
+                    }
+                  },
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 189,
+                    "end": 198,
+                    "loc": {
+                      "start": {
+                        "line": 7,
+                        "column": 31
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 40
+                      }
+                    },
+                    "object": {
+                      "type": "Identifier",
+                      "start": 189,
+                      "end": 190,
+                      "loc": {
+                        "start": {
+                          "line": 7,
+                          "column": 31
+                        },
+                        "end": {
+                          "line": 7,
+                          "column": 32
+                        }
+                      },
+                      "name": "R"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 191,
+                      "end": 198,
+                      "loc": {
+                        "start": {
+                          "line": 7,
+                          "column": 33
+                        },
+                        "end": {
+                          "line": 7,
+                          "column": 40
+                        }
+                      },
+                      "name": "whereEq"
+                    },
+                    "computed": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "ObjectExpression",
+                      "start": 199,
+                      "end": 231,
+                      "loc": {
+                        "start": {
+                          "line": 7,
+                          "column": 41
+                        },
+                        "end": {
+                          "line": 7,
+                          "column": 73
+                        }
+                      },
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 201,
+                          "end": 229,
+                          "loc": {
+                            "start": {
+                              "line": 7,
+                              "column": 43
+                            },
+                            "end": {
+                              "line": 7,
+                              "column": 71
+                            }
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 201,
+                            "end": 221,
+                            "loc": {
+                              "start": {
+                                "line": 7,
+                                "column": 43
+                              },
+                              "end": {
+                                "line": 7,
+                                "column": 63
+                              }
+                            },
+                            "name": "bill_resolution_type"
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "start": 223,
+                            "end": 229,
+                            "loc": {
+                              "start": {
+                                "line": 7,
+                                "column": 65
+                              },
+                              "end": {
+                                "line": 7,
+                                "column": 71
+                              }
+                            },
+                            "value": "bill",
+                            "rawValue": "bill",
+                            "raw": "'bill'"
+                          },
+                          "kind": "init"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "const",
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 237,
+      "end": 285,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 48
+        }
+      },
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 244,
+        "end": 285,
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 48
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 250,
+            "end": 284,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 13
+              },
+              "end": {
+                "line": 10,
+                "column": 47
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 250,
+              "end": 257,
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 13
+                },
+                "end": {
+                  "line": 10,
+                  "column": 20
+                }
+              },
+              "name": "sponsor"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 260,
+              "end": 284,
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 23
+                },
+                "end": {
+                  "line": 10,
+                  "column": 47
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 260,
+                "end": 265,
+                "loc": {
+                  "start": {
+                    "line": 10,
+                    "column": 23
+                  },
+                  "end": {
+                    "line": 10,
+                    "column": 28
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 260,
+                  "end": 261,
+                  "loc": {
+                    "start": {
+                      "line": 10,
+                      "column": 23
+                    },
+                    "end": {
+                      "line": 10,
+                      "column": 24
+                    }
+                  },
+                  "name": "R"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 262,
+                  "end": 265,
+                  "loc": {
+                    "start": {
+                      "line": 10,
+                      "column": 25
+                    },
+                    "end": {
+                      "line": 10,
+                      "column": 28
+                    }
+                  },
+                  "name": "map"
+                },
+                "computed": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 266,
+                  "end": 283,
+                  "loc": {
+                    "start": {
+                      "line": 10,
+                      "column": 29
+                    },
+                    "end": {
+                      "line": 10,
+                      "column": 46
+                    }
+                  },
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 266,
+                    "end": 272,
+                    "loc": {
+                      "start": {
+                        "line": 10,
+                        "column": 29
+                      },
+                      "end": {
+                        "line": 10,
+                        "column": 35
+                      }
+                    },
+                    "object": {
+                      "type": "Identifier",
+                      "start": 266,
+                      "end": 267,
+                      "loc": {
+                        "start": {
+                          "line": 10,
+                          "column": 29
+                        },
+                        "end": {
+                          "line": 10,
+                          "column": 30
+                        }
+                      },
+                      "name": "R"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 268,
+                      "end": 272,
+                      "loc": {
+                        "start": {
+                          "line": 10,
+                          "column": 31
+                        },
+                        "end": {
+                          "line": 10,
+                          "column": 35
+                        }
+                      },
+                      "name": "prop"
+                    },
+                    "computed": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 273,
+                      "end": 282,
+                      "loc": {
+                        "start": {
+                          "line": 10,
+                          "column": 36
+                        },
+                        "end": {
+                          "line": 10,
+                          "column": 45
+                        }
+                      },
+                      "value": "sponsor",
+                      "rawValue": "sponsor",
+                      "raw": "'sponsor'"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "const",
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 287,
+      "end": 370,
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 12,
+          "column": 83
+        }
+      },
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 294,
+        "end": 370,
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 83
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 300,
+            "end": 369,
+            "loc": {
+              "start": {
+                "line": 12,
+                "column": 13
+              },
+              "end": {
+                "line": 12,
+                "column": 82
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 300,
+              "end": 312,
+              "loc": {
+                "start": {
+                  "line": 12,
+                  "column": 13
+                },
+                "end": {
+                  "line": 12,
+                  "column": 25
+                }
+              },
+              "name": "isRepublican"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 315,
+              "end": 369,
+              "loc": {
+                "start": {
+                  "line": 12,
+                  "column": 28
+                },
+                "end": {
+                  "line": 12,
+                  "column": 82
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 315,
+                "end": 323,
+                "loc": {
+                  "start": {
+                    "line": 12,
+                    "column": 28
+                  },
+                  "end": {
+                    "line": 12,
+                    "column": 36
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 315,
+                  "end": 316,
+                  "loc": {
+                    "start": {
+                      "line": 12,
+                      "column": 28
+                    },
+                    "end": {
+                      "line": 12,
+                      "column": 29
+                    }
+                  },
+                  "name": "R"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 317,
+                  "end": 323,
+                  "loc": {
+                    "start": {
+                      "line": 12,
+                      "column": 30
+                    },
+                    "end": {
+                      "line": 12,
+                      "column": 36
+                    }
+                  },
+                  "name": "filter"
+                },
+                "computed": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 324,
+                  "end": 368,
+                  "loc": {
+                    "start": {
+                      "line": 12,
+                      "column": 37
+                    },
+                    "end": {
+                      "line": 12,
+                      "column": 81
+                    }
+                  },
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 324,
+                    "end": 332,
+                    "loc": {
+                      "start": {
+                        "line": 12,
+                        "column": 37
+                      },
+                      "end": {
+                        "line": 12,
+                        "column": 45
+                      }
+                    },
+                    "object": {
+                      "type": "Identifier",
+                      "start": 324,
+                      "end": 325,
+                      "loc": {
+                        "start": {
+                          "line": 12,
+                          "column": 37
+                        },
+                        "end": {
+                          "line": 12,
+                          "column": 38
+                        }
+                      },
+                      "name": "R"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 326,
+                      "end": 332,
+                      "loc": {
+                        "start": {
+                          "line": 12,
+                          "column": 39
+                        },
+                        "end": {
+                          "line": 12,
+                          "column": 45
+                        }
+                      },
+                      "name": "filter"
+                    },
+                    "computed": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "CallExpression",
+                      "start": 333,
+                      "end": 367,
+                      "loc": {
+                        "start": {
+                          "line": 12,
+                          "column": 46
+                        },
+                        "end": {
+                          "line": 12,
+                          "column": 80
+                        }
+                      },
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 333,
+                        "end": 342,
+                        "loc": {
+                          "start": {
+                            "line": 12,
+                            "column": 46
+                          },
+                          "end": {
+                            "line": 12,
+                            "column": 55
+                          }
+                        },
+                        "object": {
+                          "type": "Identifier",
+                          "start": 333,
+                          "end": 334,
+                          "loc": {
+                            "start": {
+                              "line": 12,
+                              "column": 46
+                            },
+                            "end": {
+                              "line": 12,
+                              "column": 47
+                            }
+                          },
+                          "name": "R"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 335,
+                          "end": 342,
+                          "loc": {
+                            "start": {
+                              "line": 12,
+                              "column": 48
+                            },
+                            "end": {
+                              "line": 12,
+                              "column": 55
+                            }
+                          },
+                          "name": "whereEq"
+                        },
+                        "computed": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "ObjectExpression",
+                          "start": 343,
+                          "end": 366,
+                          "loc": {
+                            "start": {
+                              "line": 12,
+                              "column": 56
+                            },
+                            "end": {
+                              "line": 12,
+                              "column": 79
+                            }
+                          },
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "start": 345,
+                              "end": 364,
+                              "loc": {
+                                "start": {
+                                  "line": 12,
+                                  "column": 58
+                                },
+                                "end": {
+                                  "line": 12,
+                                  "column": 77
+                                }
+                              },
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 345,
+                                "end": 350,
+                                "loc": {
+                                  "start": {
+                                    "line": 12,
+                                    "column": 58
+                                  },
+                                  "end": {
+                                    "line": 12,
+                                    "column": 63
+                                  }
+                                },
+                                "name": "party"
+                              },
+                              "value": {
+                                "type": "Literal",
+                                "start": 352,
+                                "end": 364,
+                                "loc": {
+                                  "start": {
+                                    "line": 12,
+                                    "column": 65
+                                  },
+                                  "end": {
+                                    "line": 12,
+                                    "column": 77
+                                  }
+                                },
+                                "value": "Republican",
+                                "rawValue": "Republican",
+                                "raw": "'Republican'"
+                              },
+                              "kind": "init"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "const",
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 371,
+      "end": 440,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 69
+        }
+      },
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 378,
+        "end": 440,
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 7
+          },
+          "end": {
+            "line": 13,
+            "column": 69
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 384,
+            "end": 439,
+            "loc": {
+              "start": {
+                "line": 13,
+                "column": 13
+              },
+              "end": {
+                "line": 13,
+                "column": 68
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 384,
+              "end": 394,
+              "loc": {
+                "start": {
+                  "line": 13,
+                  "column": 13
+                },
+                "end": {
+                  "line": 13,
+                  "column": 23
+                }
+              },
+              "name": "isDemocrat"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 397,
+              "end": 439,
+              "loc": {
+                "start": {
+                  "line": 13,
+                  "column": 26
+                },
+                "end": {
+                  "line": 13,
+                  "column": 68
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 397,
+                "end": 405,
+                "loc": {
+                  "start": {
+                    "line": 13,
+                    "column": 26
+                  },
+                  "end": {
+                    "line": 13,
+                    "column": 34
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 397,
+                  "end": 398,
+                  "loc": {
+                    "start": {
+                      "line": 13,
+                      "column": 26
+                    },
+                    "end": {
+                      "line": 13,
+                      "column": 27
+                    }
+                  },
+                  "name": "R"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 399,
+                  "end": 405,
+                  "loc": {
+                    "start": {
+                      "line": 13,
+                      "column": 28
+                    },
+                    "end": {
+                      "line": 13,
+                      "column": 34
+                    }
+                  },
+                  "name": "filter"
+                },
+                "computed": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 406,
+                  "end": 438,
+                  "loc": {
+                    "start": {
+                      "line": 13,
+                      "column": 35
+                    },
+                    "end": {
+                      "line": 13,
+                      "column": 67
+                    }
+                  },
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 406,
+                    "end": 415,
+                    "loc": {
+                      "start": {
+                        "line": 13,
+                        "column": 35
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 44
+                      }
+                    },
+                    "object": {
+                      "type": "Identifier",
+                      "start": 406,
+                      "end": 407,
+                      "loc": {
+                        "start": {
+                          "line": 13,
+                          "column": 35
+                        },
+                        "end": {
+                          "line": 13,
+                          "column": 36
+                        }
+                      },
+                      "name": "R"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 408,
+                      "end": 415,
+                      "loc": {
+                        "start": {
+                          "line": 13,
+                          "column": 37
+                        },
+                        "end": {
+                          "line": 13,
+                          "column": 44
+                        }
+                      },
+                      "name": "whereEq"
+                    },
+                    "computed": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "ObjectExpression",
+                      "start": 416,
+                      "end": 437,
+                      "loc": {
+                        "start": {
+                          "line": 13,
+                          "column": 45
+                        },
+                        "end": {
+                          "line": 13,
+                          "column": 66
+                        }
+                      },
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 418,
+                          "end": 435,
+                          "loc": {
+                            "start": {
+                              "line": 13,
+                              "column": 47
+                            },
+                            "end": {
+                              "line": 13,
+                              "column": 64
+                            }
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 418,
+                            "end": 423,
+                            "loc": {
+                              "start": {
+                                "line": 13,
+                                "column": 47
+                              },
+                              "end": {
+                                "line": 13,
+                                "column": 52
+                              }
+                            },
+                            "name": "party"
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "start": 425,
+                            "end": 435,
+                            "loc": {
+                              "start": {
+                                "line": 13,
+                                "column": 54
+                              },
+                              "end": {
+                                "line": 13,
+                                "column": 64
+                              }
+                            },
+                            "value": "Democrat",
+                            "rawValue": "Democrat",
+                            "raw": "'Democrat'"
+                          },
+                          "kind": "init"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "const",
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 442,
+      "end": 521,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 79
+        }
+      },
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 449,
+        "end": 521,
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 7
+          },
+          "end": {
+            "line": 15,
+            "column": 79
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 455,
+            "end": 520,
+            "loc": {
+              "start": {
+                "line": 15,
+                "column": 13
+              },
+              "end": {
+                "line": 15,
+                "column": 78
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 455,
+              "end": 478,
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 13
+                },
+                "end": {
+                  "line": 15,
+                  "column": 36
+                }
+              },
+              "name": "sortByCurrentStatusDate"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 481,
+              "end": 520,
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 39
+                },
+                "end": {
+                  "line": 15,
+                  "column": 78
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 481,
+                "end": 489,
+                "loc": {
+                  "start": {
+                    "line": 15,
+                    "column": 39
+                  },
+                  "end": {
+                    "line": 15,
+                    "column": 47
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 481,
+                  "end": 482,
+                  "loc": {
+                    "start": {
+                      "line": 15,
+                      "column": 39
+                    },
+                    "end": {
+                      "line": 15,
+                      "column": 40
+                    }
+                  },
+                  "name": "R"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 483,
+                  "end": 489,
+                  "loc": {
+                    "start": {
+                      "line": 15,
+                      "column": 41
+                    },
+                    "end": {
+                      "line": 15,
+                      "column": 47
+                    }
+                  },
+                  "name": "sortBy"
+                },
+                "computed": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 490,
+                  "end": 519,
+                  "loc": {
+                    "start": {
+                      "line": 15,
+                      "column": 48
+                    },
+                    "end": {
+                      "line": 15,
+                      "column": 77
+                    }
+                  },
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 490,
+                    "end": 496,
+                    "loc": {
+                      "start": {
+                        "line": 15,
+                        "column": 48
+                      },
+                      "end": {
+                        "line": 15,
+                        "column": 54
+                      }
+                    },
+                    "object": {
+                      "type": "Identifier",
+                      "start": 490,
+                      "end": 491,
+                      "loc": {
+                        "start": {
+                          "line": 15,
+                          "column": 48
+                        },
+                        "end": {
+                          "line": 15,
+                          "column": 49
+                        }
+                      },
+                      "name": "R"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 492,
+                      "end": 496,
+                      "loc": {
+                        "start": {
+                          "line": 15,
+                          "column": 50
+                        },
+                        "end": {
+                          "line": 15,
+                          "column": 54
+                        }
+                      },
+                      "name": "prop"
+                    },
+                    "computed": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 497,
+                      "end": 518,
+                      "loc": {
+                        "start": {
+                          "line": 15,
+                          "column": 55
+                        },
+                        "end": {
+                          "line": 15,
+                          "column": 76
+                        }
+                      },
+                      "value": "current_status_date",
+                      "rawValue": "current_status_date",
+                      "raw": "'current_status_date'"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "const",
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 523,
+      "end": 609,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 86
+        }
+      },
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 530,
+        "end": 609,
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 7
+          },
+          "end": {
+            "line": 17,
+            "column": 86
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 536,
+            "end": 608,
+            "loc": {
+              "start": {
+                "line": 17,
+                "column": 13
+              },
+              "end": {
+                "line": 17,
+                "column": 85
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 536,
+              "end": 552,
+              "loc": {
+                "start": {
+                  "line": 17,
+                  "column": 13
+                },
+                "end": {
+                  "line": 17,
+                  "column": 29
+                }
+              },
+              "name": "isCurrentAndBill"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 555,
+              "end": 608,
+              "loc": {
+                "start": {
+                  "line": 17,
+                  "column": 32
+                },
+                "end": {
+                  "line": 17,
+                  "column": 85
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 555,
+                "end": 564,
+                "loc": {
+                  "start": {
+                    "line": 17,
+                    "column": 32
+                  },
+                  "end": {
+                    "line": 17,
+                    "column": 41
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 555,
+                  "end": 556,
+                  "loc": {
+                    "start": {
+                      "line": 17,
+                      "column": 32
+                    },
+                    "end": {
+                      "line": 17,
+                      "column": 33
+                    }
+                  },
+                  "name": "R"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 557,
+                  "end": 564,
+                  "loc": {
+                    "start": {
+                      "line": 17,
+                      "column": 34
+                    },
+                    "end": {
+                      "line": 17,
+                      "column": 41
+                    }
+                  },
+                  "name": "compose"
+                },
+                "computed": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 565,
+                  "end": 574,
+                  "loc": {
+                    "start": {
+                      "line": 17,
+                      "column": 42
+                    },
+                    "end": {
+                      "line": 17,
+                      "column": 51
+                    }
+                  },
+                  "name": "isCurrent"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 576,
+                  "end": 582,
+                  "loc": {
+                    "start": {
+                      "line": 17,
+                      "column": 53
+                    },
+                    "end": {
+                      "line": 17,
+                      "column": 59
+                    }
+                  },
+                  "name": "isBill"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 584,
+                  "end": 607,
+                  "loc": {
+                    "start": {
+                      "line": 17,
+                      "column": 61
+                    },
+                    "end": {
+                      "line": 17,
+                      "column": 84
+                    }
+                  },
+                  "name": "sortByCurrentStatusDate"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "const",
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 611,
+      "end": 701,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 0
+        },
+        "end": {
+          "line": 19,
+          "column": 90
+        }
+      },
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 618,
+        "end": 701,
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 7
+          },
+          "end": {
+            "line": 19,
+            "column": 90
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 624,
+            "end": 700,
+            "loc": {
+              "start": {
+                "line": 19,
+                "column": 13
+              },
+              "end": {
+                "line": 19,
+                "column": 89
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 624,
+              "end": 647,
+              "loc": {
+                "start": {
+                  "line": 19,
+                  "column": 13
+                },
+                "end": {
+                  "line": 19,
+                  "column": 36
+                }
+              },
+              "name": "isRepublicanCurrentBill"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 650,
+              "end": 700,
+              "loc": {
+                "start": {
+                  "line": 19,
+                  "column": 39
+                },
+                "end": {
+                  "line": 19,
+                  "column": 89
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 650,
+                "end": 659,
+                "loc": {
+                  "start": {
+                    "line": 19,
+                    "column": 39
+                  },
+                  "end": {
+                    "line": 19,
+                    "column": 48
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 650,
+                  "end": 651,
+                  "loc": {
+                    "start": {
+                      "line": 19,
+                      "column": 39
+                    },
+                    "end": {
+                      "line": 19,
+                      "column": 40
+                    }
+                  },
+                  "name": "R"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 652,
+                  "end": 659,
+                  "loc": {
+                    "start": {
+                      "line": 19,
+                      "column": 41
+                    },
+                    "end": {
+                      "line": 19,
+                      "column": 48
+                    }
+                  },
+                  "name": "compose"
+                },
+                "computed": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 660,
+                  "end": 676,
+                  "loc": {
+                    "start": {
+                      "line": 19,
+                      "column": 49
+                    },
+                    "end": {
+                      "line": 19,
+                      "column": 65
+                    }
+                  },
+                  "name": "isCurrentAndBill"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 678,
+                  "end": 690,
+                  "loc": {
+                    "start": {
+                      "line": 19,
+                      "column": 67
+                    },
+                    "end": {
+                      "line": 19,
+                      "column": 79
+                    }
+                  },
+                  "name": "isRepublican"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 692,
+                  "end": 699,
+                  "loc": {
+                    "start": {
+                      "line": 19,
+                      "column": 81
+                    },
+                    "end": {
+                      "line": 19,
+                      "column": 88
+                    }
+                  },
+                  "name": "sponsor"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "const",
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null
+    }
+  ]
+}
