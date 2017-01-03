@@ -1,6 +1,5 @@
-
 const bad = () => {
-  throw Error('Bad code')
+  throw Error('Bad code');
 };
 
 export default () => {
