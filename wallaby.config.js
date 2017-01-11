@@ -21,5 +21,5 @@ module.exports = wallaby => ({
     '**/*.js': wallaby.compilers.babel()
   },
   
-  debug: true
+//  debug: true
 });
