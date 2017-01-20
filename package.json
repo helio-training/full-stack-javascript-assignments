@@ -24,7 +24,10 @@
     "esdoc-es7-plugin": "^0.0.3"
   },
   "ava": {
-    "babel": "inherit"
+    "babel": "inherit",
+    "require": [
+      "babel-register"
+    ]
   },
   "dependencies": {
     "ramda": "^0.22.1"
