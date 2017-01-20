@@ -1,6 +1,7 @@
 import Test from 'ava';
 import * as Assignment from './';
 
+
 Test('#greet() when age is over 18', t => {
   t.is(Assignment.greeting(21), 'Hello!');
 });
