@@ -4,7 +4,6 @@
 
 1. Fill in the details for the isValid function
 2. Complete the toString function (takes a string, sanitizes it, then formats it to normal ssn formatting)
-3. 
 
 
 
