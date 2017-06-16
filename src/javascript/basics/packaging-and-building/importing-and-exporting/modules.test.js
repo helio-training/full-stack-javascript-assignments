@@ -1,12 +1,35 @@
 import Test from 'ava';
-import Imports, {me} from './imports';
+import Robots, {FACTIONS, Robot} from './';
 
-Test('Imports uses meaning of life', t => {
-  t.is(Imports, 42);
+Test('Optimus Prime', t => {
+  const optimusPrime = Robots.optimusPrime;
+  // const { optimusPrime } = Robots;
+  
+  t.is(optimusPrime.name, 'Optimus Prime');
+  t.is(optimusPrime.faction, FACTIONS.Autobots);
+  t.is(optimusPrime.greet(), `Hi, I'm Optimus Prime`);
 });
 
-Test('Exports me', t => {
-  t.truthy(me['name']);
-  t.truthy(me['age']);
-  t.truthy(me['isTeacher']);
+Test('Megatron', t => {
+  const { megatron } = Robots;
+  
+  t.is(megatron.name, 'Megatron');
+  t.is(megatron.faction, FACTIONS.Decepticons);
+  t.is(megatron.greet(), `Hi, I'm Megatron`);
 });
+
+Test('Can create bumblebee from Robot', t => {
+  const name = 'BumbleBee';
+  const faction = FACTIONS.Autobots;
+  const POWER = 1000;
+  
+  const bumblebee = new Robot(name, faction);
+  
+  
+  t.is(bumblebee.name, name);
+  t.is(bumblebee.faction, FACTIONS.Autobots);
+  t.is(bumblebee.greet(), `Hi, I'm ${name}`);
+  t.is(bumblebee.power, POWER);
+});
+
+
