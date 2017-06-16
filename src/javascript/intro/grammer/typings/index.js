@@ -1,21 +1,17 @@
+let Cat = function(name, color){
+  this.name = name;
+  this.color = color;
+}
+
 export default {
-  isTrue: true,
-  isFalse: false,
-  email: 'tjgarlick@gmail.com',
-  age: 35,
-  height: 64.5,
-  phone: '8012012200',
-  favoriteFoods: ['Apple', 'Banana', 'Potato'],
-  name: {
-    first: 'Tyler',
-    last: 'Garlick'
-  },
-  notDefined: undefined,
-  nullable: null,
-  greet() {
-    return 'Hello';
-  },
-  emptyString: '',
-  zero: 0,
-  one: 1
+  stringObj: null,
+  myString: null,
+  myNum: null,
+  myDecimal: null,
+  myFloat: null,
+  myFloat2: null,
+  myArrowFn: null,
+  myObj: null,
+  Cat: Cat,
+  Fluffy: new Cat('Fluffy', 'white')
 };
