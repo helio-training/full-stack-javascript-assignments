@@ -9,14 +9,20 @@ For this assignment you will be create more robots.  This time we will use class
 
 1. Create an OptimusPrimse, and a Megatron class that contains the name, faction, power properties
 2. Create greet functions for both OptimusPrime and Megatron that return 'Hi, I'm ${name}'
-3. Create a FACTION constant that looks like this.
-4. Export an instance variable for OptimusPrime named 'optimusPrime' and another instance variable for Megatron named 'megatron'
-5. Create a base class called Robot, export the class.
-6. Fix the OptimusPrime and Megatron classes to inherit from the Robot class
-7. Move the greet function to the Robot class.  Fix the other objects so they use the greet functions from the Robot class
-8. Create a constructor on Robot class that takes: name, faction.  Default power to 1000
-9. Refactor the OptimusPrime class and Megatron class to use the Robot's constructor
-10. Refactor OptimusPrime's class and Megatron's class to set the name and faction by default when a new robot is created.
+3. Create a FACTIONS constant that looks like this:
+```javascript
+export const FACTIONS = {
+  Autobots: 'autobots',
+  Decepticons: 'decepticons'
+};
+```
+4. Create a base class called Robot, export the class.
+5. Fix the OptimusPrime and Megatron classes to inherit from the Robot class
+6. Move the greet function to the Robot class.  Fix the other objects so they use the greet functions from the Robot class
+7. Create a constructor on Robot class that takes: name, faction.  Default power to 1000
+8. Refactor the OptimusPrime class and Megatron class to use the Robot's constructor
+9. Refactor OptimusPrime's class and Megatron's class to set the name and faction by default when a new robot is created.
+10. Use the 'export default' syntax at the bottom of your file to export an instance variable for OptimusPrime named 'optimusPrime' and another instance variable for Megatron named 'megatron'.  Use the 'new' keyword to create the new Megatron and OptimusPrime instances for those variables.
 
 
 ### Observations
@@ -28,5 +34,3 @@ For this assignment you will be create more robots.  This time we will use class
 * How could you make a property be readonly?
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model
-
-constructor
